@@ -55,3 +55,12 @@ body{
     color: #FFFFFF;
 }
 
+.carousel-inner {
+    /* Fix margin issue. In the full view, 
+    the button on the left most card didn't work
+    because the carousel next-prev selectors were 
+    too close */
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
