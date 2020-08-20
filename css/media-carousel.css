@@ -33,6 +33,7 @@ body{
 
 .mrgn{
     margin-top: 2%;
+    transform: translateY(-25%);
 }
 
 .new{
