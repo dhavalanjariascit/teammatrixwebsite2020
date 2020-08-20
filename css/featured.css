@@ -1,0 +1,131 @@
+.greenHeader{
+    background-color: #21AC39;
+    top: 0px;
+    left: 0px;
+    width: 1394px;
+    height: 188px;
+}
+.blackContents{
+    background-color: black;
+    width: 1394px;
+    height: 848px;
+}
+.imagePlayPosition{
+    margin-top: 17px;
+}
+.live{
+    background-color: #F31F28;
+    width: 60px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: antiquewhite;
+    padding-left: 12px;
+    border-radius: 5px;
+    border: 3px;
+    padding-top: 2px;
+    margin-top: 13px;
+    margin-left: 40px
+}
+.featuredText{
+    top: 5%;
+    left: 10%;
+    width: 90%;
+    height: 16%;
+    font-size: 110px; 
+    text-align: left;
+    letter-spacing: 0px;
+    color: #9BFFAC;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.likeIcon{
+    padding-left: 10px
+}
+.socialMediaIcon{
+    margin-left: 72px; margin-top: 15px
+}
+.socialMediaIcon1{
+    margin-left: 20px; margin-top: 15px
+}
+@media only screen and (max-width: 600px) {
+   .featuredText{
+    top: 5%;
+    left: 1%;
+    width: 90%;
+    height: 16%;
+    font-size: 60px; 
+    text-align: left;
+    letter-spacing: 0px;
+    color: #9BFFAC;
+    text-transform: uppercase;
+    opacity: 1;
+    }
+    .customNumber{display:none;}
+    img#play1 {width: auto ;
+            max-width: 100% ;
+            height: auto ;}
+    img#play2{width: auto ;
+        max-width: 100% ;
+        height: auto ;}
+    img#play3{width: auto ;
+        max-width: 100% ;
+        height: auto ;}
+    img#playOn1{width: auto ;
+        max-width: 100% ;
+        height: auto ;}
+    img#playOn2{width: auto ;
+        max-width: 100% ;
+        height: auto ;}
+    .customCard{
+            top: 93px;
+            left: 200px;
+            width: 400px;
+            height: 630px;
+        }   
+    .blackContents{
+            background-color: black;
+            width: 1394px;
+            height: 1050px;
+        }
+  }
+  .customCard{
+    top: 93px;
+    left: 100px;
+    width: 444px;
+    height: 630px;
+  }
+.customButton{
+    margin-left: 24px;
+    width: 189px;
+    height: 55px;
+    background-color: #21AC39;
+    color: white
+}
+.sectionBox{
+    font-size: 23px; 
+    text-align: left;
+    text-transform: capitalize ;   
+}
+.customNumber{
+    height: 101px;
+    width: 27px;
+    color: #737373;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: bolder 
+}
+.customTabText{
+    padding-top: 35px;
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-weight: bold;
+}
+.customPlay{
+    width: 58px;
+    height: 67px;
+    margin-left: 20px;
+}

@@ -1,82 +1,209 @@
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8">
 
-    <title>INSERT SITE TITLE HERE</title>
-    <meta name="description" content="INSERT SITE DESCRIPTION HERE">
-    <meta name="author" content="INSERT CONTENT HERE">
+  <title>INSERT SITE TITLE HERE</title>
+  <meta name="description" content="INSERT SITE DESCRIPTION HERE">
+  <meta name="author" content="INSERT CONTENT HERE">
 
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/featured.css">
 
-                <!--[if lt IE 9]>
+  <!--[if lt IE 9]>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
                     <![endif]-->
 
-                    <!-- Bootstrap stuff -->
-                    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Bootstrap stuff -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
 
-                    <!-- Latest compiled JavaScript, JQuery and Popper.js -->
+  <!-- Latest compiled JavaScript, JQuery and Popper.js -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-                    <!-- So it works on mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-                    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!-- custom JS file -->
+  <script type="text/javascript" src="js/featured.js"></script>
+  <!-- So it works on mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
-<body>    <nav class="navbar navbar-expand-sm">
-        <div class="container">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                
-            </ul>
-        </div>
-    </nav>
-    <!-- Standard container so you don't forget -->
-    <div class="container">
-        <div class="jumbotron jumbotron-fluid">
-		  <div class="container">
-		    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-		    	  <ol class="carousel-indicators">
-				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				  </ol>
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <p>FIRST</p>
-			    </div>
-			    <div class="carousel-item">
-			      <p>SECOND</p>
-			    </div>
-			    <div class="carousel-item">
-			      <p>THIRD</p>
-			    </div>
-			    
-			    <div class="carousel-item">
-			    	<h1>Some Fourth Item</h1>
-			      <p>Some fourth item</p>
-			    </div>	
-			  </div>
-			</div>
 
-		  </div>
-		</div>
+<body>
+  <!-- Events Section -->
+  <div class="blackContents row">
+    <div class="featuredText col-md-6">
+      <b>featured</b>
+      <section class="sectionBox">
+        <ul class="nav nav-tabs">
+          <li class="active">
+            <a data-toggle="tab" id="toggleOngoing" onclick="ongoing()" style="color:#21AC39; text-decoration: none;font-weight:bold"
+              href="#ongoing">Ongoing</a>
+          </li>
+          <li>
+            <a data-toggle="tab" id="toggleUpcoming" onclick="upcoming()" href="#upcoming" style="margin-left:97px;color:#AFAFAF; text-decoration: none">upcoming</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div id="ongoing" class="tab-pane in active">
+            <div class="row">
+              <div class="col-md-1 customNumber">1</div>
+              <a href="javascript:void()" id="event1" style="text-decoration: none" onclick="toggleOngoingCardView1()" class="col-md-8 customTabText">team matrix ongoing event 1</a>
+              <img id='play1' class="col-md-2 imagePlayPosition" src="Assets/play.png">
+            </div>
+            <div class="row">
+              <div class="col-md-1 customNumber">2</div>
+              <a href="javascript:void()" id="event2" style="text-decoration: none" onclick="toggleOngoingCardView2()" class="col-md-8 customTabText">team matrix ongoing event 2</a>
+              <img id='play2' class="col-md-2 imagePlayPosition" src="Assets/play.png">
+            </div>
+            <div class="row">
+              <div class="col-md-1 customNumber">3</div>
+              <a href="javascript:void()" id="event3" style="text-decoration: none" onclick="toggleOngoingCardView3()" class="col-md-8 customTabText">team matrix ongoing event 3</a>
+              <img id='play3' class="col-md-2 imagePlayPosition" src="Assets/play.png">
+            </div>
+          </div>
+          <div id="upcoming" class="tab-pane">
+            <div class="row">
+              <div class="col-md-1 customNumber">1</div>
+              <a href="javascript:void()" id="eventupcome1" style="text-decoration: none" onclick="toggleUpcomingCardView1()" class="col-md-8 customTabText">team matrix upcoming event 1</a>
+              <img id='playOn1' class="col-md-2 imagePlayPosition" src="Assets/play.png">
+            </div>
+            <div class="row">
+              <div class="col-md-1 customNumber">2</div>
+              <a href="javascript:void()" id="eventupcome2" style="text-decoration: none" onclick="toggleUpcomingCardView2()" class="col-md-8 customTabText">team matrix upcoming event 2</a>
+              <img id='playOn2' class="col-md-2 imagePlayPosition" src="Assets/play.png">
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
+    <div class="col-md-6">
+      <div id="cardon1" class="card customCard" style="border-radius: 25px;border: 2px solid #21AC39">
+        <img class="card-img-top" src="Assets/event.png" alt="Card image cap" style="border-radius: 25px; border: 2px">
+        <div class="card-body">
+          <p class="card-text">
+            <b>Lorem Ipsum is simply dummy text of the printing Printing and typesetting industry.</b>
+          </p>
+          <p>Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+            the Internet.</p>
+          <p>
+            <b>October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+          </p>
+          <div class="row">
+            <a href="https://www.google.com/">
+              <img src="Assets/like.png" class="likeIcon">
+            </a>
+            <div class="live">Live</div>
+          </div>
+        </div>
+      </div>
+      <div id="cardon2" class="card customCard" style="border-radius: 25px;border: 2px solid #21AC39">
+        <img class="card-img-top" src="Assets/event.png" alt="Card image cap" style="border-radius: 25px; border: 2px">
+        <div class="card-body">
+          <p class="card-text">
+            <b>Here we present our ONGOING event 2 header.</b>
+          </p>
+          <p>Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+            the Internet.</p>
+          <p>
+            <b>October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+          </p>
+          <div class="row">
+            <a href="https://www.google.com/">
+              <img src="Assets/like.png" class="likeIcon">
+            </a>
+            <div class="live">Live</div>
+          </div>
+        </div>
+      </div>
+      <div id="cardon3" class="card customCard" style="border-radius: 25px;border: 2px solid #21AC39">
+        <img class="card-img-top" src="Assets/event.png" alt="Card image cap" style="border-radius: 25px; border: 2px">
+        <div class="card-body">
+          <p class="card-text">
+            <b>Here we present our ONGOING event 3 header.</b>
+          </p>
+          <p>Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+            the Internet.
+          </p>
+          <p>
+            <b>October 27th 2020 | 4.00 - 6.00 PM | At SCIT</b>
+          </p>
+          <div class="row">
+            <a href="https://www.google.com/">
+              <img src="Assets/like.png" class="likeIcon">
+            </a>
+            <div class="live">Live</div>
+          </div>
+        </div>
+      </div>
+      <div id="cardup1" class="card customCard" style="border-radius: 25px;border: 2px solid #21AC39">
+        <img class="card-img-top" src="Assets/event.png" alt="Card image cap" style="border-radius: 25px; border: 2px">
+        <div class="card-body">
+          <p class="card-text">
+            <b>Here we present our UPCOMING event 1 header.</b>
+          </p>
+          <p>Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+            the Internet.</p>
+          <p>
+            <b>October 06th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+          </p>
+          <div class="row">
+            <button type="button" class="btn customButton">
+              <b>Join Now</b>
+            </button>
+            <a href="https://www.google.com/">
+              <img src="Assets/facebook.png" class="socialMediaIcon">
+            </a>
+            <a href="https://www.google.com/">
+              <img src="Assets/ig.png" class="socialMediaIcon1">
+            </a>
+            <a href="https://www.google.com/">
+              <img src="Assets/linkedin.png" class="socialMediaIcon1">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="cardup2" class="card customCard" style="border-radius: 25px;border: 2px solid #21AC39">
+        <img class="card-img-top" src="Assets/event.png" alt="Card image cap" style="border-radius: 25px; border: 2px">
+        <div class="card-body">
+          <p class="card-text">
+            <b>Lorem Ipsum is simply dummy text UPCOMING event 2.</b>
+          </p>
+          <p>Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+            the Internet.</p>
+          <p>
+            <b>October 16th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+          </p>
+          <div class="row">
+            <button type="button" class="btn customButton">
+              <b>Join Now</b>
+            </button>
+            <a href="https://www.google.com/">
+              <img src="Assets/facebook.png" class="socialMediaIcon">
+            </a>
+            <a href="https://www.google.com/">
+              <img src="Assets/ig.png" class="socialMediaIcon1">
+            </a>
+            <a href="https://www.google.com/">
+              <img src="Assets/linkedin.png" class="socialMediaIcon1">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
