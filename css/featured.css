@@ -7,11 +7,11 @@
 }
 .blackContents{
     background-color: black;
-    width: 1394px;
     height: 848px;
 }
 .imagePlayPosition{
-    margin-top: 17px;
+    max-width: 4em;
+    transform: translateY(0.5em)
 }
 .live{
     background-color: #F31F28;
@@ -85,7 +85,6 @@
         }   
     .blackContents{
             background-color: black;
-            width: 1394px;
             height: 1050px;
         }
   }
@@ -94,6 +93,10 @@
     left: 100px;
     width: 444px;
     height: 630px;
+    border-radius: 25px !important;border: 2px solid #21AC39 !important
+  }
+  .test{
+    border-radius: 25px !important; border: 2px !important
   }
 .customButton{
     margin-left: 24px;
@@ -116,13 +119,13 @@
     font-weight: bolder 
 }
 .customTabText{
-    padding-top: 35px;
+    margin-top: 35px;
     font-size: 25px;
     text-align: left;
     color: white;
     text-transform: capitalize;
-    font-weight: normal;
     font-weight: bold;
+    text-decoration: none !important;
 }
 .customPlay{
     width: 58px;
