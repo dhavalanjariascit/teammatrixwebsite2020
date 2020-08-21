@@ -1,4 +1,4 @@
-
+/*
 		.AboutUS {
 		  background-color: #000000;
 		}
@@ -37,4 +37,84 @@
 .about-us-heading {
 	color:#737373;
 	font: ExtraBold 93px/140px Poppins;
-}
+}*/
+
+
+	
+
+      .sec1 {}
+
+  		.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        background-color: #000000; 
+        color: #23DD10;
+      }
+      a.nav-link {
+        color: #AFAFAF;
+      }
+
+      #div1 .nav-tabs > li >a {
+        font-size: 30px;
+        font-weight: 700;
+        /*border: none;*/
+      }
+      .nav-tabs {
+        /*border-bottom: none;*/
+      }
+      .sec1 {
+        background-color: #000000;
+      }
+      .head1 {
+        color:#737373; font-size: 60px;
+        font-weight: 900; 
+        padding-top: 10px
+        }
+
+      .textmatrix {
+        color:white;
+      }
+      .textisaca {
+        color: white;
+      }
+
+      .sec2{
+        background-color: #101010;
+      }
+      .Symbiosis_white {
+        padding-top : 40px; 
+        padding-left: 100px;
+      }
+      #matLogo {
+        padding-left: 50px;
+      }
+      .part {
+        color: white; 
+        padding-bottom: 25px;
+        padding-left: 100px;
+      }
+      #Footr2 {
+        padding-left: 50px;
+      }
+      #part1 #part2 #part3 {
+        color: white; 
+      }
+      #part1 {
+        font-size: 15px;
+      }
+      #hr1 {
+        background-color: white;
+      }
+      #img2 {
+        padding-left: 30px;
+      }
+      #img3 {
+        padding-left: 30px;
+      }
+      #img4 {
+        padding-left: 30px;
+      }
+
+      #FootrRight {
+        color: white; 
+        padding-top : 100px; 
+        padding-left: 100px;
+      }
