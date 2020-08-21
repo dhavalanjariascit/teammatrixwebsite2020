@@ -1,0 +1,40 @@
+
+		.AboutUS {
+		  background-color: #000000;
+		}
+		.Footer {
+			position: relative;
+			bottom: 0px;
+			background-color: #101010 ;
+			color: #fff;
+			margin-top: 20%;
+		} 
+		#Abotus #Abotus2{
+			top: 50px;
+			left: 50px;
+		}
+
+.about-us-nav-item {
+	font-size: 22px;
+	font-weight: 700;
+	color: #737373;
+}
+
+.about-us-nav-item:hover {
+	text-decoration: none;
+	color: #23DD10;
+}
+
+.about-us-nav-item.nav-link.active {
+	background-color: #000;
+	color: #23DD10;
+}
+
+.about-us-text {
+	color: #FFF;
+}
+
+.about-us-heading {
+	color:#737373;
+	font: ExtraBold 93px/140px Poppins;
+}
