@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+/** TEAM SECTION STARTS **/
+
+.memberbg{
+	  background-color:black;
+}
+
+.wrappertitle{
+    margin-top:0px;
+}
+
+.team-images{
+    width: 150x;
+    height: 150px;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .9s ease;
+}
+
+.col:hover .overlay {
+  opacity: 0.8;
+}
+.heading{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size:550%;
+  
+}
+
+.col{
+    text-align: center;
+}
+
+.wrappermain{
+    margin-top: 40px;
+}
+
+.name-heading{
+      color: white;
+    margin-top: 10px;
+	
+}
+
+.post-heading{
+    font-family: 'Roboto Slab', serif;
+}
+
