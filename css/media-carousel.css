@@ -33,6 +33,7 @@ body{
 
 .mrgn{
     margin-top: 2%;
+    transform: translateY(-25%);
 }
 
 .new{
@@ -63,4 +64,8 @@ body{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+}
+
+.btn-outline-dark:hover {
+    color: #fff !important;
 }
