@@ -29,11 +29,14 @@ body{
 
 
 /***** Carousel Card Start ****/
-
-
-.mrgn{
-    margin-top: 2%;
+.container .main-carousel {
     transform: translateY(-25%);
+    margin-top: 2%;
+}
+
+.carousel-cell{
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 .new{
