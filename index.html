@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +10,19 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media-carousel.css">
     <link rel="stylesheet" href="./css/AboutFoooter.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./js/media-carousel.js"></script>
 
 </head>
 
 <body>
-    <!-- Green Background and Media heading -->
-    <div>
-
     <div class="container-fluid bck-color">
         <div class="container">
             <div class="row">
@@ -32,234 +38,206 @@
                 </div>
             </div>
         </div>
-      </div>
-        <!--x--- Green Background and Media heading -->
-
-        <!-- Card Layout with Carousel Start -->
-        <div id="carouselBlog" class="carousel slide carousel-multi-item mrgn" data-ride="carousel">
-            <!--Slides-->
-            <div class="carousel-inner" role="listbox">
-
-                <!--First slide-->
-                <div class="carousel-item active">
-
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card mb-2 new">
-                                <img class="card-img-top rounded"
-                                    src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-                                    alt="Card image 1">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn-outline-dark">Button</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 clearfix d-none d-md-block">
-                            <div class="card mb-2 new">
-                                <img class="card-img-top rounded"
-                                    src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-                                    alt="Card image 2">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn btn-outline-dark">Button</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 clearfix d-none d-md-block">
-                            <div class="card mb-2 new">
-                                <img class="card-img-top rounded"
-                                    src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-                                    alt="Card image 3">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn btn-outline-dark">Button</a>
-                                </div>
-                            </div>
-                        </div>
+    </div>
+    <!--x--- Green Background and Media heading -->
+    <div class="container">
+        <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround": true, "autoPlay": true }'>
+            <div class="carousel-cell">
+                <div class="card mb-2 new">
+                    <img class="card-img-top rounded"
+                        src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+                        alt="Card image 1">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title 1</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-outline-dark">Button</a>
                     </div>
-
                 </div>
-                <!--/.First slide-->
-
-                <!--Second slide-->
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card mb-2 new">
-                                <img class="card-img-top rounded"
-                                    src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-                                    alt="Card image 4">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn btn-outline-dark">Button</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 clearfix d-none d-md-block">
-                            <div class="card mb-2 new">
-                                <img class="card-img-top rounded"
-                                    src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-                                    alt="Card image 5">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn btn-outline-dark">Button</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 clearfix d-none d-md-block">
-                            <div class="card mb-2 new">
-                                <img class="card-img-top rounded"
-                                    src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-                                    alt="Card image 6">
-                                <div class="card-body">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the
-                                        card's content.</p>
-                                    <a class="btn btn btn-outline-dark">Button</a>
-                                </div>
-                            </div>
-                        </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="card mb-2 new">
+                    <img class="card-img-top rounded"
+                        src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+                        alt="Card image 1">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title 2</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-outline-dark">Button</a>
                     </div>
-
                 </div>
-                <!--/.Second slide-->
+            </div>
+            <div class="carousel-cell">
+                <div class="card mb-2 new">
+                    <img class="card-img-top rounded"
+                        src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+                        alt="Card image 1">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title 3</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-outline-dark">Button</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="card mb-2 new">
+                    <img class="card-img-top rounded"
+                        src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+                        alt="Card image 1">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title 4</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-outline-dark">Button</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="card mb-2 new">
+                    <img class="card-img-top rounded"
+                        src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+                        alt="Card image 1">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title 5</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the
+                            card's content.</p>
+                        <a class="btn btn-outline-dark">Button</a>
+                    </div>
+                </div>
             </div>
         </div>
-
-        
-
-        <a class="carousel-control-prev" href="#carouselBlog" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselBlog" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
     </div>
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
-    <section class="sec1" >
-      <div class="container mt-3" id="div1">
-        <h1 class="about-us-heading">ABOUT US</h1>
-        <br>
-        <ul class="nav nav-tabs" >
-          <li class="nav-item" >
-            <a class="nav-link about-us-nav-item active" data-toggle="tab" href="#matrix" >MATRIX</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link about-us-nav-item" data-toggle="tab" href="#isaca" >ISACA</a>
-          </li>
-        </ul>
-        
-        <div class="tab-content">
-          <div id="matrix" class="container tab-pane active"><br>
+    
+    
 
-            <div class="row" >
-                
-                <div class="col-lg-6 col-md-6 col-12 " id="Abotus">
-                  <p class="textmatrix about-us-text" >Team Matrix is a group of like minded people dedicated to research and awareness in the area of information security. Information security can only be successful if it is made an integral part of the day-to-day work responsibilities, and it is therefore necessary that everybody (in the organization ) understands the importance of information security. Security awareness and training controls have been identified as a mandatory part of many standards and frameworks. Realizing this need a group of like minded security enthusiasts came together at SCIT, Pune to work for the cause.
-                    <br><br>
+    <section class="sec1">
+        <div class="container mt-3" id="div1">
+            <h1 class="about-us-heading">ABOUT US</h1>
+            <br>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link about-us-nav-item active" data-toggle="tab" href="#matrix">MATRIX</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link about-us-nav-item" data-toggle="tab" href="#isaca">ISACA</a>
+                </li>
+            </ul>
 
-                  Team Matrix was formed in 2009 with the intent of spreading in the area of information security. Late night discussions and planning led to the birth of Team Matrix.</p>
+            <div class="tab-content">
+                <div id="matrix" class="container tab-pane active"><br>
+
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-6 col-12 " id="Abotus">
+                            <p class="textmatrix about-us-text">Team Matrix is a group of like minded people dedicated
+                                to research and awareness in the area of information security. Information security can
+                                only be successful if it is made an integral part of the day-to-day work
+                                responsibilities, and it is therefore necessary that everybody (in the organization )
+                                understands the importance of information security. Security awareness and training
+                                controls have been identified as a mandatory part of many standards and frameworks.
+                                Realizing this need a group of like minded security enthusiasts came together at SCIT,
+                                Pune to work for the cause.
+                                <br><br>
+
+                                Team Matrix was formed in 2009 with the intent of spreading in the area of information
+                                security. Late night discussions and planning led to the birth of Team Matrix.</p>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <img src="images\AboutUs.jpg" class="img-fluid ">
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-12">
-                  <img src = "images\AboutUs.jpg" class="img-fluid " >
-                </div>
-              </div>
-            </div>  
+                <div id="isaca" class="container tab-pane fade"><br>
 
-          <div id="isaca" class="container tab-pane fade"><br>
+                    <div class="row">
 
-            <div class="row" >
-                
-                <div class="col-lg-6 col-md-6 col-12 " id="Abotus2">
-                  <p class="textisaca about-us-text" >The ISACA community is guided by our Purpose and Promise, which defines the essence of who we are and what we do. Our Purpose is the reason we exist—to help business technology professionals and their enterprises around the world realize the positive potential of technology. Our Promise is how we, as an organization and as individuals, deliver on our Purpose: inspiring confidence that enables innovation through technology. Our work, and the work of the professional community we support, has never been more important.
-                    <br><br>
+                        <div class="col-lg-6 col-md-6 col-12 " id="Abotus2">
+                            <p class="textisaca about-us-text">The ISACA community is guided by our Purpose and Promise,
+                                which defines the essence of who we are and what we do. Our Purpose is the reason we
+                                exist—to help business technology professionals and their enterprises around the world
+                                realize the positive potential of technology. Our Promise is how we, as an organization
+                                and as individuals, deliver on our Purpose: inspiring confidence that enables innovation
+                                through technology. Our work, and the work of the professional community we support, has
+                                never been more important.
+                                <br><br>
 
-                  ISACA has served our professional community for more than 50 years. The association was incorporated as the EDP Auditors Association in 1969 by a small group of individuals who recognized a need for a centralized source of information and guidance in the new field of electronic data processing audit. </p>
-                </div>
+                                ISACA has served our professional community for more than 50 years. The association was
+                                incorporated as the EDP Auditors Association in 1969 by a small group of individuals who
+                                recognized a need for a centralized source of information and guidance in the new field
+                                of electronic data processing audit. </p>
+                        </div>
 
-                <div class="col-lg-6 col-md-6 col-12">
-                  <img src = "images\isaca.jpg" class="img-fluid " >
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <img src="images\isaca.jpg" class="img-fluid ">
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
-    <section class="sec2 Footer p-2" >
+    <section class="sec2 Footer p-2">
         <div class="container-fluid">
-          <div class="row" >
-            <div class="col-lg-6 col-md-6 col-12">
-              <div class="Symbiosis_white" >
-                <img src = "images\Logo Symbiosis_white.png" class="img-fluid"  >
-                <img src = "images\matrix-logo-white.png" class="img-fluid " id="matLogo">
-              </div>
-              <hr class="w-75 max-auto" id="hr1">
-              <div class="part" >
-                <p id="part1" >
-                Symbiosis Centre of Information Technology </p>
-                <p id="part2" >Plot No.15, Rajiv Gandhi Infotech Park, MIDC,<br> Hinjewadi, Pune, Maharashtra 411057 <br><br>
-                </p>
-                <p id="part3" >+91-020-22944140 / 130 <br>teammatrix@associates.scit.edu</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="Symbiosis_white">
+                        <img src="images\Logo Symbiosis_white.png" class="img-fluid">
+                        <img src="images\matrix-logo-white.png" class="img-fluid " id="matLogo">
+                    </div>
+                    <hr class="w-75 max-auto" id="hr1">
+                    <div class="part">
+                        <p id="part1">
+                            Symbiosis Centre of Information Technology </p>
+                        <p id="part2">Plot No.15, Rajiv Gandhi Infotech Park, MIDC,<br> Hinjewadi, Pune, Maharashtra
+                            411057 <br><br>
+                        </p>
+                        <p id="part3">+91-020-22944140 / 130 <br>teammatrix@associates.scit.edu</p>
 
-                <a id="img1" href="https://www.facebook.com/scitpune/photos/scit-team-matrix-in-association-with-isaca-proudly-presents-its-flagship-event-c/1780876435535289/" target="_blank"><img src = "images\ic_header_facebook.svg" class="img-fluid"  ></a>
-                <a id="img2" href="https://in.linkedin.com/public-profile/in/team-matrix-scit-93a58358?challengeId=AQGw8QXLgbogrQAAAXQFqYvUyEpR6PHkq4Of9KERKJOeiHZmXLSDH4SXBXrQQX_fDgX76Rcv6hx0s4BoQU9IUokMx5rouCnIoQ&submissionId=6fb54046-669b-2c16-fe1d-f69619c8f470" target="_blank"><img src = "images\ic_header_linkedin.svg" class="img-fluid" ></a>
-                <a id="img3" href="https://www.instagram.com/teammatrixscit/" target="_blank"><img src = "images\ic_header_facebook.svg" class="img-fluid" ></a>
-                <a id="img4" ><img src = "images\ic_header_facebook.svg" class="img-fluid" ></a>
-              </div>
-              
-            </div>
+                        <a id="img1"
+                            href="https://www.facebook.com/scitpune/photos/scit-team-matrix-in-association-with-isaca-proudly-presents-its-flagship-event-c/1780876435535289/"
+                            target="_blank"><img src="images\ic_header_facebook.svg" class="img-fluid"></a>
+                        <a id="img2"
+                            href="https://in.linkedin.com/public-profile/in/team-matrix-scit-93a58358?challengeId=AQGw8QXLgbogrQAAAXQFqYvUyEpR6PHkq4Of9KERKJOeiHZmXLSDH4SXBXrQQX_fDgX76Rcv6hx0s4BoQU9IUokMx5rouCnIoQ&submissionId=6fb54046-669b-2c16-fe1d-f69619c8f470"
+                            target="_blank"><img src="images\ic_header_linkedin.svg" class="img-fluid"></a>
+                        <a id="img3" href="https://www.instagram.com/teammatrixscit/" target="_blank"><img
+                                src="images\ic_header_facebook.svg" class="img-fluid"></a>
+                        <a id="img4"><img src="images\ic_header_facebook.svg" class="img-fluid"></a>
+                    </div>
+
+                </div>
 
 
-            <div class="col-lg-6 col-md-6 col-12">
-              <div class="row" id="FootrRight" >
-                  <div>
-                    <p>Events</p>
-                    <p>Past Events</p>
-                    <p>Our Team</p>
-                  </div>
-                  <div id="Footr2" >
-                    <p>Home</p>
-                    <p>About Us</p>
-                    <p>Team</p>
-                    <p>Blog</p>
-                  </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="row" id="FootrRight">
+                        <div>
+                            <p>Events</p>
+                            <p>Past Events</p>
+                            <p>Our Team</p>
+                        </div>
+                        <div id="Footr2">
+                            <p>Home</p>
+                            <p>About Us</p>
+                            <p>Team</p>
+                            <p>Blog</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 </body>
 
 </html>
