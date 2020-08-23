@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+/** Past Events STARTS **/
+
+body{
+	background-color:black;
+}
+.wrappertitle{
+    padding:85px;
+	margin-bottom:100px;
+	
+}
+.wrappertitleup{
+
+    height: 149px;
+    background-color: #21AC39;
+	margin-bottom:180px;
+
+}
+
+.heading{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size:550%;
+  
+}
+.card-title{
+	padding: 0.5rem;
+}
+.card-subtitle{
+	padding:0.5rem;
+}
+.card{
+	border: 0px solid rgba(0,0,0,.125);
+	background-color: Grey;
+	border-radius:1rem;
+	border-width:0px;
+	width:300px;
+	margin-left:30px;
+	margin-right:30px;
+	
+
+}
+p{
+	padding:0.5rem;
+}
+
+.card-body {
+ padding: 0.5rem;
+}
+p.card-text{
+	font-size: 0.90rem;
+	line-height:1.2rem;
+}
+
+.team-single:hover .side-two {
+    transform: rotateY(0deg);
+    border-radius: 1rem;
+}
+
+.team-single:hover .side-one {
+    transform: rotateY(180deg);
+	    border-radius: 1rem;
+
+}
+
+
+
+.side-one {
+    position: relative;
+    transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 0px;
+}
+
+.side-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    transform: rotateY(-180deg);
+}
+
+.side-one,
+.side-two {
+    backface-visibility: hidden;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+/** TEAM Matrix STARTS **/
+
+.memberbg{
+	  background-color:black;
+}
+
+.memberstitle{
+	padding-top:70px;
+    margin-top:0px;
+}
+
+.team-images{
+    width: 135x;
+    height: 135px;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .9s ease;
+}
+
+
+.col:hover .overlay {
+  opacity: 0.8;
+}
+.membersheading{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size:550%;
+  
+}
+
+.col{
+    text-align: center;
+}
+
+.wrappermain{
+    margin-top: 35px;
+	padding-bottom: 21px;
+}
+
+.name-heading{
+      color: white;
+    margin-top: 10px;
+	font-size:15px;
+	
+}
+
+.post-heading{
+    font-family: 'Roboto Slab', serif;
+	font-size:14px;
+}
+
