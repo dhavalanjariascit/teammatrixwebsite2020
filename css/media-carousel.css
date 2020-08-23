@@ -79,7 +79,7 @@ body{
     margin-top: 2%;
 }
 
-.carousel-cell {
+.media-carousel.carousel-cell {
     min-height: 420px; /* This fix includes a fix for flickity where adaptive height is not working properly 
    So we do it ourselves by setting the min-height, ensuring that the height of a cell will be at least 420 px*/
 
