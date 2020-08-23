@@ -78,6 +78,8 @@
 
       .sec2{
         background-color: #101010;
+        position: relative;
+        bottom: 0px;
       }
       .Symbiosis_white {
         padding-top : 40px; 

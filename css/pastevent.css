@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+/** TEAM SECTION STARTS **/
+
+body{
+	background-color:black;
+}
+.wrappertitle{
+    padding:75px;
+	margin-bottom:100px;
+	
+}
+.wrappertitleup{
+
+    height: 139px;
+    background-color: #21AC39;
+	margin-bottom:160px;
+
+}
+
+.heading{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size:550%;
+  
+}
+.past-event-carousel.card-title{
+	padding: 0.5rem;
+}
+.past-event-carousel.card-subtitle{
+	padding:0.5rem;
+}
+.past-event-carousel.card{
+	border: 0px solid rgba(0,0,0,.125);
+	background-color: Grey;
+	border-radius:1rem;
+	border-width:0px;
+	width:300px;
+	margin-left:30px;
+	margin-right:30px;
+
+}
+p{
+	padding:0.5rem;
+}
+
+.past-event-carousel.card-body {
+ padding: 0.5rem;
+}
+p.past-event-carousel.card-text{
+	font-size: 0.90rem;
+	line-height:1.2rem;
+}
+
+.team-single:hover .side-two {
+    transform: rotateY(0deg);
+    border-radius: 1rem;
+}
+
+.team-single:hover .side-one {
+    transform: rotateY(180deg);
+	    border-radius: 1rem;
+
+}
+
+
+
+.side-one {
+    position: relative;
+    transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.side-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    transform: rotateY(-180deg);
+}
+
+.side-one,
+.side-two {
+    backface-visibility: hidden;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
