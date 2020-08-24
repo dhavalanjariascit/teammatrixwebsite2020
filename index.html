@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media</title>
+    <title>Team Matrix 2020</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -15,15 +15,6 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
 
-    <link rel="stylesheet" href="./css/style.css">
-<!-- CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-
-    
-    <!-- JavaScript -->
-    <script src="./js/media-carousel.js"></script>
-
-	
 	<!-- CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -32,6 +23,11 @@
 	<link rel="stylesheet" href="css/membersprofile.css">
   <link rel="stylesheet" href="./css/media-carousel.css">
     <link rel="stylesheet" href="./css/AboutFoooter.css">
+  <link rel="stylesheet" href="./css/featured.css">
+
+    <!-- JavaScript -->
+    <script src="./js/media-carousel.js"></script>
+    <script type="text/javascript" src="js/featured.js"></script>
 
 
 </head>
@@ -39,20 +35,198 @@
 <body>
 <div class="content">
 
-  <section>
-    <div class="container-fluid bck-color">
-        <div class="container">
+<body>
+  <!-- Featured Section -->
+  <div class="blackContents row">
+    <div class="featuredText col-md-6">
+      <b>featured</b>
+      <section class="sectionBox">
+        <ul class="nav nav-tabs">
+          <li class="active">
+            <a data-toggle="tab" id="toggleOngoing" onclick="ongoing()" href="#ongoing" style="color:#21AC39 ; text-decoration: none ;font-weight:bold">Ongoing</a>
+          </li>
+          <li>
+            <a data-toggle="tab" id="toggleUpcoming" onclick="upcoming()" href="#upcoming" style="margin-left:97px;color:#AFAFAF ; text-decoration: none">upcoming</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div id="ongoing" class="tab-pane in active">
             <div class="row">
-                <div class="col-md-2 bck-heading">
-                    MEDIA
-                </div>
+              <div class="col-md-1 customNumber">1</div>
+              <a href="javascript:void()" id="event1" onclick="toggleOngoingCardView1()" class="col-md-8 customTabText">team matrix ongoing event 1</a>
+              <img id='play1' class="col-md-2 imagePlayPosition" src="images/play.png">
             </div>
+            <div class="row">
+              <div class="col-md-1 customNumber">2</div>
+              <a href="javascript:void()" id="event2" onclick="toggleOngoingCardView2()" class="col-md-8 customTabText">team matrix ongoing event 2</a>
+              <img id='play2' class="col-md-2 imagePlayPosition" src="images/play.png">
+            </div>
+            <div class="row">
+              <div class="col-md-1 customNumber">3</div>
+              <a href="javascript:void()" id="event3" onclick="toggleOngoingCardView3()" class="col-md-8 customTabText">team matrix ongoing event 3</a>
+              <img id='play3' class="col-md-2 imagePlayPosition" src="images/play.png">
+            </div>
+          </div>
+          <div id="upcoming" class="tab-pane">
+            <div class="row">
+              <div class="col-md-1 customNumber">1</div>
+              <a href="javascript:void()" id="eventupcome1" onclick="toggleUpcomingCardView1()" class="col-md-8 customTabText">team matrix upcoming event 1</a>
+              <img id='playOn1' class="col-md-2 imagePlayPosition" src="images/play.png">
+            </div>
+            <div class="row">
+              <div class="col-md-1 customNumber">2</div>
+              <a href="javascript:void()" id="eventupcome2" onclick="toggleUpcomingCardView2()" class="col-md-8 customTabText">team matrix upcoming event 2</a>
+              <img id='playOn2' class="col-md-2 imagePlayPosition" src="images/play.png">
+            </div>
+          </div>
         </div>
     </div>
-    <!-- x--- Green Background and Media heading -->
+    <div class="col-md-6">
+      <div id="cardon1" class="card customCard">
+        <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">
+            <b>Lorem Ipsum is simply dummy text of the printing Printing and typesetting industry.</b>
+          </p>
+          <p>Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+            the Internet.</p>
+          <p>
+            <b>October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+          </p>
+          <div class="row">
+            <a href="https://www.google.com/">
+              <img src="images/like.png" class="likeIcon">
+            </a>
+            <div class="live">Live</div>
+          </div>
+        </div>
+      </div>
+      <div id="cardon2" class="card customCard">
+        <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">
+            <b>Here we present our ONGOING event 2 header.</b>
+          </p>
+          <p>Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+            the Internet.</p>
+          <p>
+            <b>October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+          </p>
+          <div class="row">
+            <a href="https://www.google.com/">
+              <img src="images/like.png" class="likeIcon">
+            </a>
+            <div class="live">Live</div>
+          </div>
+        </div>
+      </div>
+      <div id="cardon3" class="card customCard">
+        <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">
+            <b>Here we present our ONGOING event 3 header.</b>
+          </p>
+          <p>Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+            the Internet.
+          </p>
+          <p>
+            <b>October 27th 2020 | 4.00 - 6.00 PM | At SCIT</b>
+          </p>
+          <div class="row">
+            <a href="https://www.google.com/">
+              <img src="images/like.png" class="likeIcon">
+            </a>
+            <div class="live">Live</div>
+          </div>
+        </div>
+      </div>
+      <div id="cardup1" class="card customCard">
+        <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">
+            <b>Here we present our UPCOMING event 1 header.</b>
+          </p>
+          <p>Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+            the Internet.</p>
+          <p>
+            <b>October 06th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+          </p>
+          <div class="row">
+            <button type="button" class="btn customButton">
+              <b>Join Now</b>
+            </button>
+            <a href="https://www.google.com/">
+              <img src="images/facebook.png" class="socialMediaIcon">
+            </a>
+            <a href="https://www.google.com/">
+              <img src="images/ig.png" class="socialMediaIcon1">
+            </a>
+            <a href="https://www.google.com/">
+              <img src="images/linkedin.png" class="socialMediaIcon1">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="cardup2" class="card customCard">
+        <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">
+            <b>Lorem Ipsum is simply dummy text UPCOMING event 2.</b>
+          </p>
+          <p>Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+            the Internet.</p>
+          <p>
+            <b>October 16th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+          </p>
+          <div class="row">
+            <button type="button" class="btn customButton">
+              <b>Join Now</b>
+            </button>
+            <a href="https://www.google.com/">
+              <img src="images/facebook.png" class="socialMediaIcon">
+            </a>
+            <a href="https://www.google.com/">
+              <img src="images/ig.png" class="socialMediaIcon1">
+            </a>
+            <a href="https://www.google.com/">
+              <img src="images/linkedin.png" class="socialMediaIcon1">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Featured Section -->
+
+ <section>
+  <!-- Green Background and Media heading -->
+  <div>
+    <div class="container-fluid bck-color">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 bck-heading">
+            MEDIA
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 order-last blg-seemore">
+            <a class="btn btn-link lnk-deco" href="#" role="button">
+              <h5>See More</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--x/ Green Background and Media heading -->
+
     <div class="container" id="media-carousel">
         <div class="main-carousel" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": true, "adaptiveHeight": true }'>
-            <div class="carousel-cell">
+            <div class="media-carousel carousel-cell">
                 <div class="media-carousel card mb-2 new">
                     <img class="media-carousel card-img-top rounded"
                         src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
@@ -125,10 +299,10 @@
                     </div>
                 </div>
             </div>
+          </div>
         </div>
     </div>
   </section>
-
 
     <section class="sec1" >
       <div class="container mt-3" id="div1">
@@ -485,9 +659,6 @@
         </div>
       </div>
     </div>
-
-
-  </div>
 </section>
 	  <!-- end of the members profile -->
 
