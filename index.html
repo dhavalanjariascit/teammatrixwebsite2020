@@ -22,8 +22,11 @@
 	<link rel="stylesheet" href="css/pastevent.css">
 	<link rel="stylesheet" href="css/membersprofile.css">
   <link rel="stylesheet" href="./css/media-carousel.css">
-    <link rel="stylesheet" href="./css/AboutFoooter.css">
+  <link rel="stylesheet" href="./css/AboutFoooter.css">
   <link rel="stylesheet" href="./css/featured.css">
+  <link rel="stylesheet" href="./css/navbar-additional.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link href="./css/navbar.css" rel="stylesheet">
 
     <!-- JavaScript -->
     <script src="./js/media-carousel.js"></script>
@@ -34,8 +37,60 @@
 
 <body>
 <div class="content">
+<!--Start of NAVBAR html code -->
+            <div class="view" style="background-image: url('images/bgop.png'); background-repeat: no-repeat;">    
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-<body>
+            <a class="navbar-brand" href="#"><img src="images/matrix-logo-white@2x.png" style="height: 3.0rem;" > &nbsp;  </a> <img src="images/Logo%20Symbiosis_white@2x.png" height="30px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+
+            <!--  <li class="nav-item col-md-10">
+                <a class="nav-link navpad logonavpad" href="#"><img src="../../../Downloads/team_matrix/team_matrix/Logo Symbiosis_white@2x.png" height="40px"> </a>
+            </li>-->
+
+            </ul>
+            <ul class="navbar-nav align-right" >
+            <li class="nav-item navpad">
+                <a class="nav-link navpad" href="#">Home </a>
+            </li>
+            <li class="nav-item navpad">
+                <a class="nav-link navpad" href="#about-us-section">About</a>
+            </li>
+            <li class="nav-item navpad">
+                <a class="nav-link navpad" href="#members-section"> Team </a>
+            </li>
+              <li class="nav-item eventnavpad">
+                <a class="nav-link" href="#events-section"> <button class="btn btn-success navbar-btn"> Events </button>  </a>
+            </li>
+            </ul>
+            </div>
+            </nav>
+
+            <div class="container align-center" id="welcome-div">
+
+            <div class="row justify-content-md-center h-100">
+            <div class="mbr-white col-md-10">
+            <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-3"><span style="font-weight: normal;"><br></span><br><br><span style="font-weight: normal;">        <br> Welcome to <span class="greentext"> Matrix</span> </span>
+                </h1>
+
+            <p class="mbr-text pb-3 mbr-fonts-style display-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <br>
+            <br>
+            <br>
+
+            </div>
+            </div>
+            </div>
+            </div>
+
+    
+<!--END of NAVBAR html code -->
+    
+<section id="featured-section">
   <!-- Featured Section -->
   <div class="blackContents row">
     <div class="featuredText col-md-6">
@@ -201,9 +256,10 @@
       </div>
     </div>
   </div>
+</section>
   <!-- /Featured Section -->
 
- <section>
+ <section id="media-section">
   <!-- Green Background and Media heading -->
   <div>
     <div class="container-fluid bck-color">
@@ -304,7 +360,7 @@
     </div>
   </section>
 
-    <section class="sec1" >
+    <section class="sec1" id="about-us-section">
       <div class="container mt-3" id="div1">
         <h1 class="head1">ABOUT US</h1>
         <br>
@@ -371,8 +427,7 @@
         </div>
     </section>
 
-<section>
-<!-- members profile starting from here-->
+<section id="events-section">
 <div class="container-fluid wrappertitleup">
 	<div class="wrappertitle">
             <div class="container">
@@ -385,33 +440,33 @@
 	</div>
 </div>
 			<!-- Past Event-->
-	<div class="container">
-    
-        <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround": true, "autoPlay": true }'>
-            <div class="carousel-cell">
+
+    <div class="container" id="events-carousel">
+        <div class="past-event-carousel" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": true, "adaptiveHeight": true }'>
 					
 	   <!-- Past Event 1 -->
-         <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="carousel-cell">
+         
             <div class="team-single"> 
 
                <div class="side-one">
-                    <div class="card text-white">
-						<img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
-						<h5 class="past-event-carousel card-subtitle mt-1">Past event 1</h5>
-						<p class="past-event-carousel card-text">About</p>
+                    <div class="past-event-carousel card text-white">
+            <img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
+            <h5 class="past-event-carousel card-subtitle mt-1">Past Event 1</h5>
+            <p class="past-event-carousel card-text">About </p>
     
-					</div>
+          </div>
                </div>
-			   <div class="side-two">
-					<div class="past-event-carousel card text-white">
-					<a href="#"><img src="assets/Know More (1).png" class="img-fluid" alt="past event" /></a>
+         <div class="side-two">
+          <div class="past-event-carousel card text-white">
+          <a href="#"><img src="assets/Know More (1).png" class="img-fluid" alt="past event" /></a>
         
-					</div>
+          </div>
                </div>
                
             </div>
-         </div>
-		</div>
+         
+               </div>
          <!-- XXX---Past event 1 -->
          <!-- Past Event 2 -->
 		 <div class="carousel-cell">
@@ -532,10 +587,13 @@
                
             </div>
          </div> <!-- Past Event 6 -->
+
          
  </div>
 
+</section> <!-- End events-section -->
 
+<section id="members-section">
 
          <!--XXXX Past Event -->            
  
