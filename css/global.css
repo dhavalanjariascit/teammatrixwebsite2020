@@ -1,0 +1,5 @@
+html {
+	/* Note: not supported in safari; */
+	scroll-behavior: smooth;;
+
+}
