@@ -38,224 +38,227 @@
 <body>
 <div class="content">
 <!--Start of NAVBAR html code -->
-            <div class="view" style="background-image: url('images/bgop.png'); background-repeat: no-repeat;">    
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<section id="intro">
+<div class="view" class="mb-2" style="background-image: url('images/bgop.png'); background-repeat: no-repeat;">    
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-            <a class="navbar-brand" href="#"><img src="images/matrix-logo-white@2x.png" style="height: 3.0rem;" > &nbsp;  </a> <img src="images/Logo%20Symbiosis_white@2x.png" height="30px">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
+    <a class="navbar-brand" href="#"><img src="images/matrix-logo-white@2x.png" style="height: 3.0rem;" > &nbsp;  </a> <img src="images/Logo%20Symbiosis_white@2x.png" height="30px">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
 
             <!--  <li class="nav-item col-md-10">
                 <a class="nav-link navpad logonavpad" href="#"><img src="../../../Downloads/team_matrix/team_matrix/Logo Symbiosis_white@2x.png" height="40px"> </a>
-            </li>-->
+              </li>-->
 
-            </ul>
-            <ul class="navbar-nav align-right" >
-            <li class="nav-item navpad">
-                <a class="nav-link navpad" href="#">Home </a>
-            </li>
-            <li class="nav-item navpad">
-                <a class="nav-link navpad" href="#about-us-section">About</a>
-            </li>
-            <li class="nav-item navpad">
-                <a class="nav-link navpad" href="#members-section"> Team </a>
-            </li>
-              <li class="nav-item eventnavpad">
-                <a class="nav-link" href="#events-section"> <button class="btn btn-success navbar-btn"> Events </button>  </a>
-            </li>
-            </ul>
-            </div>
-            </nav>
-
-            <div class="container align-center" id="welcome-div">
-
-            <div class="row justify-content-md-center h-100">
-            <div class="mbr-white col-md-10">
-            <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-3"><span style="font-weight: normal;"><br></span><br><br><span style="font-weight: normal;">        <br> Welcome to <span class="greentext"> Matrix</span> </span>
-                </h1>
-
-            <p class="mbr-text pb-3 mbr-fonts-style display-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <br>
-            <br>
-            <br>
-
-            </div>
-            </div>
-            </div>
-            </div>
-
-    
-<!--END of NAVBAR html code -->
-    
-<section id="featured-section">
-  <!-- Featured Section -->
-  <div class="blackContents row">
-    <div class="featuredText col-md-6">
-      <b>featured</b>
-      <section class="sectionBox">
-        <ul class="nav nav-tabs">
-          <li class="active">
-            <a data-toggle="tab" id="toggleOngoing" onclick="ongoing()" href="#ongoing" style="color:#21AC39 ; text-decoration: none ;font-weight:bold">Ongoing</a>
-          </li>
-          <li>
-            <a data-toggle="tab" id="toggleUpcoming" onclick="upcoming()" href="#upcoming" style="margin-left:97px;color:#AFAFAF ; text-decoration: none">upcoming</a>
-          </li>
-        </ul>
-        <div class="tab-content">
-          <div id="ongoing" class="tab-pane in active">
-            <div class="row">
-              <div class="col-md-1 customNumber">1</div>
-              <a href="javascript:void()" id="event1" onclick="toggleOngoingCardView1()" class="col-md-8 customTabText">team matrix ongoing event 1</a>
-              <img id='play1' class="col-md-2 imagePlayPosition" src="images/play.png">
-            </div>
-            <div class="row">
-              <div class="col-md-1 customNumber">2</div>
-              <a href="javascript:void()" id="event2" onclick="toggleOngoingCardView2()" class="col-md-8 customTabText">team matrix ongoing event 2</a>
-              <img id='play2' class="col-md-2 imagePlayPosition" src="images/play.png">
-            </div>
-            <div class="row">
-              <div class="col-md-1 customNumber">3</div>
-              <a href="javascript:void()" id="event3" onclick="toggleOngoingCardView3()" class="col-md-8 customTabText">team matrix ongoing event 3</a>
-              <img id='play3' class="col-md-2 imagePlayPosition" src="images/play.png">
-            </div>
-          </div>
-          <div id="upcoming" class="tab-pane">
-            <div class="row">
-              <div class="col-md-1 customNumber">1</div>
-              <a href="javascript:void()" id="eventupcome1" onclick="toggleUpcomingCardView1()" class="col-md-8 customTabText">team matrix upcoming event 1</a>
-              <img id='playOn1' class="col-md-2 imagePlayPosition" src="images/play.png">
-            </div>
-            <div class="row">
-              <div class="col-md-1 customNumber">2</div>
-              <a href="javascript:void()" id="eventupcome2" onclick="toggleUpcomingCardView2()" class="col-md-8 customTabText">team matrix upcoming event 2</a>
-              <img id='playOn2' class="col-md-2 imagePlayPosition" src="images/play.png">
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="resize">
-      <div id="cardon1" class="card customCard">
-        <img class="card-img-top test" src="images/event.png" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text detailedText">
-            <b>Lorem Ipsum is simply dummy text of the printing Printing and typesetting industry.</b>
-          </p>
-          <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
-            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
-            the Internet.</p>
-          <p>
-            <b class="detailedText">October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b>
-          </p>
-          <div class="row">
-            <a href="https://www.google.com/">
-              <img src="images/like.png" class="likeIcon">
-            </a>
-            <div class="live">Live</div>
-          </div>
-        </div>
+      </ul>
+      <ul class="navbar-nav align-right" >
+        <li class="nav-item navpad">
+          <a class="nav-link navpad" href="#">Home </a>
+        </li>
+        <li class="nav-item navpad">
+          <a class="nav-link navpad" href="#about-us-section">About</a>
+        </li>
+        <li class="nav-item navpad">
+          <a class="nav-link navpad" href="#members-section"> Team </a>
+        </li>
+        <li class="nav-item eventnavpad">
+          <a class="nav-link" href="#events-section"> <button class="btn btn-success navbar-btn"> Events </button>  </a>
+        </li>
+      </ul>
       </div>
-      <div id="cardon2" class="card customCard">
-        <img class="card-img-top test" src="images/event.png" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text detailedText">
-            <b class="detailedText">Here we present our ONGOING event 2 header.</b>
-          </p>
-          <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
-            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
-            the Internet.</p>
-          <p>
-            <b class="detailedText">October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b>
-          </p>
-          <div class="row">
-            <a href="https://www.google.com/">
-              <img src="images/like.png" class="likeIcon">
-            </a>
-            <div class="live">Live</div>
-          </div>
-        </div>
-      </div>
-      <div id="cardon3" class="card customCard">
-        <img class="card-img-top test" src="images/event.png" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text detailedText">
-            <b class="detailedText">Here we present our ONGOING event 3 header.</b>
-          </p>
-          <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
-            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
-            the Internet.
-          </p>
-          <p>
-            <b class="detailedText">October 27th 2020 | 4.00 - 6.00 PM | At SCIT</b>
-          </p>
-          <div class="row">
-            <a href="https://www.google.com/">
-              <img src="images/like.png" class="likeIcon">
-            </a>
-            <div class="live">Live</div>
-          </div>
-        </div>
-      </div>
-      <div id="cardup1" class="card customCard">
-        <img class="card-img-top test" src="images/event.png" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text detailedText">
-            <b class="detailedText">Here we present our UPCOMING event 1 header.</b>
-          </p>
-          <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
-            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
-            the Internet.</p>
-          <p>
-            <b class="detailedText">October 06th 2020 | 5.00 - 6.00 PM | At SCIT</b>
-          </p>
-          <div class="row">
-            <button type="button" class="btn customButton">
-              <b>Join Now</b>
-            </button>
-            <a href="https://www.google.com/">
-              <img src="images/facebook.png" class="socialMediaIcon">
-            </a>
-            <a href="https://www.google.com/">
-              <img src="images/ig.png" class="socialMediaIcon1">
-            </a>
-            <a href="https://www.google.com/">
-              <img src="images/linkedin.png" class="socialMediaIcon1">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="cardup2" class="card customCard">
-        <img class="card-img-top test" src="images/event.png" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text detailedText">
-            <b class="detailedText">Lorem Ipsum is simply dummy text UPCOMING event 2.</b>
-          </p>
-          <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
-            Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
-            the Internet.</p>
-          <p>
-            <b class="detailedText">October 16th 2020 | 5.00 - 6.00 PM | At SCIT</b>
-          </p>
-          <div class="row">
-            <button type="button" class="btn customButton">
-              <b>Join Now</b>
-            </button>
-            <a href="https://www.google.com/">
-              <img src="images/facebook.png" class="socialMediaIcon">
-            </a>
-            <a href="https://www.google.com/">
-              <img src="images/ig.png" class="socialMediaIcon1">
-            </a>
-            <a href="https://www.google.com/">
-              <img src="images/linkedin.png" class="socialMediaIcon1">
-            </a>
-          </div>
-        </div>
+    </nav>
+
+  <div class="container align-center" id="welcome-div">
+    <div class="row justify-content-md-center h-100">
+      <div class="mbr-white col-md-10">
+        <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-3"><span style="font-weight: normal;"><br></span><br><br><span style="font-weight: normal;">        <br> Welcome to <span class="greentext"> Matrix</span> </span>
+        </h1>
+        <p class="mbr-text pb-3 mbr-fonts-style display-6 matrix-intro-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<!--         <br>
+        <br>
+        <br> -->
       </div>
     </div>
   </div>
+</div>
+
+    
+<!--END of NAVBAR html code -->
+</section>
+
+<section id="featured-section">
+  <!-- Featured Section -->
+  <div class="blackContents ">
+    <div class="container" id="featured-section-container">
+    <div class="featuredText">
+      <b>featured</b>
+    </div>
+      <div class="row">
+        <div class="sectionBox col-md-12 col-sm-12 col-lg-6">
+          <ul class="nav nav-tabs">
+            <li class="active">
+              <a data-toggle="tab" id="toggleOngoing" onclick="ongoing()" href="#ongoing" style="color:#21AC39 ; text-decoration: none ;font-weight:bold">Ongoing</a>
+            </li>
+            <li>
+              <a data-toggle="tab" id="toggleUpcoming" onclick="upcoming()" href="#upcoming" style="margin-left:97px;color:#AFAFAF ; text-decoration: none">upcoming</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div id="ongoing" class="tab-pane in active">
+              <div class="row">
+                <div class="col-md-1 customNumber">1</div>
+                <a href="javascript:void()" id="event1" onclick="toggleOngoingCardView1()" class="col-md-8 customTabText">team matrix ongoing event 1</a>
+                <img id='play1' class="col-md-2 imagePlayPosition" src="images/play.png">
+              </div>
+              <div class="row">
+                <div class="col-md-1 customNumber">2</div>
+                <a href="javascript:void()" id="event2" onclick="toggleOngoingCardView2()" class="col-md-8 customTabText">team matrix ongoing event 2</a>
+                <img id='play2' class="col-md-2 imagePlayPosition" src="images/play.png">
+              </div>
+              <div class="row">
+                <div class="col-md-1 customNumber">3</div>
+                <a href="javascript:void()" id="event3" onclick="toggleOngoingCardView3()" class="col-md-8 customTabText">team matrix ongoing event 3</a>
+                <img id='play3' class="col-md-2 imagePlayPosition" src="images/play.png">
+              </div>
+            </div>
+            <div id="upcoming" class="tab-pane">
+              <div class="row">
+                <div class="col-md-1 customNumber">1</div>
+                <a href="javascript:void()" id="eventupcome1" onclick="toggleUpcomingCardView1()" class="col-md-8 customTabText">team matrix upcoming event 1</a>
+                <img id='playOn1' class="col-md-2 imagePlayPosition" src="images/play.png">
+              </div>
+              <div class="row">
+                <div class="col-md-1 customNumber">2</div>
+                <a href="javascript:void()" id="eventupcome2" onclick="toggleUpcomingCardView2()" class="col-md-8 customTabText">team matrix upcoming event 2</a>
+                <img id='playOn2' class="col-md-2 imagePlayPosition" src="images/play.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="resize col-md-12 col-sm-12 col-lg-6"> 
+          <div id="cardon1" class="card customCard">
+            <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text detailedText">
+                <b>Lorem Ipsum is simply dummy text of the printing Printing and typesetting industry.</b>
+              </p>
+              <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+                Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+                the Internet.</p>
+              <p>
+                <b class="detailedText">October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+              </p>
+              <div class="row">
+                <a href="https://www.google.com/">
+                  <img src="images/like.png" class="likeIcon">
+                </a>
+                <div class="live">Live</div>
+              </div>
+            </div>
+          </div>
+          <div id="cardon2" class="card customCard">
+            <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text detailedText">
+                <b class="detailedText">Here we present our ONGOING event 2 header.</b>
+              </p>
+              <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+                Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+                the Internet.</p>
+              <p>
+                <b class="detailedText">October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+              </p>
+              <div class="row">
+                <a href="https://www.google.com/">
+                  <img src="images/like.png" class="likeIcon">
+                </a>
+                <div class="live">Live</div>
+              </div>
+            </div>
+          </div>
+          <div id="cardon3" class="card customCard">
+            <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text detailedText">
+                <b class="detailedText">Here we present our ONGOING event 3 header.</b>
+              </p>
+              <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+                Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+                the Internet.
+              </p>
+              <p>
+                <b class="detailedText">October 27th 2020 | 4.00 - 6.00 PM | At SCIT</b>
+              </p>
+              <div class="row">
+                <a href="https://www.google.com/">
+                  <img src="images/like.png" class="likeIcon">
+                </a>
+                <div class="live">Live</div>
+              </div>
+            </div>
+          </div>
+          <div id="cardup1" class="card customCard">
+            <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text detailedText">
+                <b class="detailedText">Here we present our UPCOMING event 1 header.</b>
+              </p>
+              <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+                Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+                the Internet.</p>
+              <p>
+                <b class="detailedText">October 06th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+              </p>
+              <div class="row">
+                <button type="button" class="btn customButton">
+                  <b>Join Now</b>
+                </button>
+                <a href="https://www.google.com/">
+                  <img src="images/facebook.png" class="socialMediaIcon">
+                </a>
+                <a href="https://www.google.com/">
+                  <img src="images/ig.png" class="socialMediaIcon1">
+                </a>
+                <a href="https://www.google.com/">
+                  <img src="images/linkedin.png" class="socialMediaIcon1">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="cardup2" class="card customCard">
+            <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text detailedText">
+                <b class="detailedText">Lorem Ipsum is simply dummy text UPCOMING event 2.</b>
+              </p>
+              <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
+                Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
+                the Internet.</p>
+              <p>
+                <b class="detailedText">October 16th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+              </p>
+              <div class="row">
+                <button type="button" class="btn customButton">
+                  <b>Join Now</b>
+                </button>
+                <a href="https://www.google.com/">
+                  <img src="images/facebook.png" class="socialMediaIcon">
+                </a>
+                <a href="https://www.google.com/">
+                  <img src="images/ig.png" class="socialMediaIcon1">
+                </a>
+                <a href="https://www.google.com/">
+                  <img src="images/linkedin.png" class="socialMediaIcon1">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- end contents -->
+    </div> <!-- end row -->
+  </div><!-- end featured section container -->
 </section>
   <!-- /Featured Section -->
 
