@@ -48,7 +48,7 @@
 .socialMediaIcon1{
     margin-left: 20px; margin-top: 15px
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
    .featuredText{
     top: 5%;
     left: 1%;
@@ -61,27 +61,22 @@
     text-transform: uppercase;
     opacity: 1;
     }
-    .customNumber{display:none;}
-    img#play1 {width: auto ;
-            max-width: 100% ;
-            height: auto ;}
-    img#play2{width: auto ;
-        max-width: 100% ;
-        height: auto ;}
-    img#play3{width: auto ;
-        max-width: 100% ;
-        height: auto ;}
-    img#playOn1{width: auto ;
-        max-width: 100% ;
-        height: auto ;}
-    img#playOn2{width: auto ;
-        max-width: 100% ;
-        height: auto ;}
+    .customTabText{
+        /* margin-top: 20px !important; */
+        font-size: 20px !important;
+        text-align: left;
+        color: white;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-decoration: none !important;
+    }
+    .customNumber{display: none;}
+    .resize{margin-top: auto;}
+    .imagePlayPosition{display: none !important;}
     .customCard{
-            top: 93px;
-            left: 200px;
+            left: 2px !important;
             width: 400px;
-            height: 630px;
+            height: auto;
         }   
     .blackContents{
             background-color: black;
@@ -89,14 +84,17 @@
         }
   }
   .customCard{
-    top: 93px;
+    top: 15px;
     left: 100px;
     width: 444px;
-    height: 630px;
+    height: auto;
     border-radius: 25px !important;border: 2px solid #21AC39 !important
   }
   .test{
     border-radius: 25px !important; border: 2px !important
+  }
+  .detailedText{
+      color: black;
   }
 .customButton{
     margin-left: 24px;
