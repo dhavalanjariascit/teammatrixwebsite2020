@@ -7,7 +7,7 @@
 }
 .blackContents{
     background-color: black;
-    height: 848px;
+    height: 100%;
 }
 .imagePlayPosition{
     max-width: 4em;
@@ -48,10 +48,11 @@
 .socialMediaIcon1{
     margin-left: 20px; margin-top: 15px
 }
-@media only screen and (max-width: 650px) {
+
+@media only screen and (max-width: 950px) {
    .featuredText{
-    top: 5%;
-    left: 1%;
+/*    top: 5%;
+    left: 1%;*/
     width: 90%;
     height: 16%;
     font-size: 60px; 
@@ -75,18 +76,20 @@
     .imagePlayPosition{display: none !important;}
     .customCard{
             left: 2px !important;
-            width: 400px;
+            width: 80%;
             height: auto;
         }   
     .blackContents{
             background-color: black;
-            height: 1050px;
+            height: auto;
+
+
         }
   }
   .customCard{
-    top: 15px;
-    left: 100px;
-    width: 444px;
+  	margin-top: 5%;
+  	margin-bottom: 5%;
+    width: 80%;
     height: auto;
     border-radius: 25px !important;border: 2px solid #21AC39 !important
   }
