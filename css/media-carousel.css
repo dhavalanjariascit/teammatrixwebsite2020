@@ -33,14 +33,19 @@ body{
 
 }
 
-.carousel-cell{
-    margin-left: 3em;
-    margin-right: 3em;
+.media-carousel.carousel-cell {
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .new{
     width: 300px;
     margin: auto;
+    padding: 1em;
+    border-radius: 30px !important;
+}
+.new img {
+    border-radius: 30px !important;   
 }
 
 .btn{
@@ -58,16 +63,7 @@ body{
     color: #FFFFFF;
 }
 
-.carousel-inner {
-    /* Fix margin issue. In the full view, 
-    the button on the left most card didn't work
-    because the carousel next-prev selectors were 
-    too close */
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
 
-}
 
 .btn-outline-dark:hover {
     color: #fff !important;
@@ -80,7 +76,18 @@ body{
 }
 
 .media-carousel.carousel-cell {
-    min-height: 420px; /* This fix includes a fix for flickity where adaptive height is not working properly 
+    min-height: 500px; /* This fix includes a fix for flickity where adaptive height is not working properly 
    So we do it ourselves by setting the min-height, ensuring that the height of a cell will be at least 420 px*/
+   border-radius: 30px !important;
+}
+
+
+.media-carousel.carousel-cell.card {
+    min-width: 330px;
 
 }
+
+.media-carousel.carousel-cell.card img {
+    border-radius: 30px !important
+}
+
