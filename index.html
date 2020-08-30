@@ -2,25 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Matrix 2020</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Matrix 2020</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
 
-	<!-- CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-	<link rel="stylesheet" href="css/pastevent.css">
-	<link rel="stylesheet" href="css/membersprofile.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="css/pastevent.css">
+  <link rel="stylesheet" href="css/membersprofile.css">
   <link rel="stylesheet" href="./css/media-carousel.css">
   <link rel="stylesheet" href="./css/AboutFoooter.css">
   <link rel="stylesheet" href="./css/featured.css">
@@ -28,698 +29,809 @@
   <link rel="stylesheet" href="./css/global.css">
   <link href="./css/navbar.css" rel="stylesheet">
 
-    <!-- JavaScript -->
-    <script src="./js/media-carousel.js"></script>
-    <script type="text/javascript" src="js/featured.js"></script>
+  <!-- JavaScript -->
+  <script src="./js/media-carousel.js"></script>
+  <script type="text/javascript" src="js/featured.js"></script>
 
 
 </head>
 
 <body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0" nonce="n8VL5Wm4"></script>
   <!-- SOME STAGING CODE -->
-<div class="content">
-<!--Start of NAVBAR html code -->
-<section id="intro">
-<div class="view" class="mb-2" style="background-image: url('images/bgop.png'); background-repeat: no-repeat;">    
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <div class="content">
+    <!--Start of NAVBAR html code -->
+    <section id="intro">
+      <div class="view" class="mb-2" style="background-image: url('images/bgop.png'); background-repeat: no-repeat;">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
-    <a class="navbar-brand" href="#"><img src="images/matrix-logo-white@2x.png" style="height: 3.0rem;" > &nbsp;  </a> <img src="images/Logo%20Symbiosis_white@2x.png" height="30px">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mr-auto">
+          <a class="navbar-brand" href="#">
+            <img src="images/matrix-logo-white@2x.png" style="height: 3.0rem;"> &nbsp; </a>
+          <img src="images/Logo%20Symbiosis_white@2x.png" height="30px">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
 
-            <!--  <li class="nav-item col-md-10">
+              <!--  <li class="nav-item col-md-10">
                 <a class="nav-link navpad logonavpad" href="#"><img src="../../../Downloads/team_matrix/team_matrix/Logo Symbiosis_white@2x.png" height="40px"> </a>
               </li>-->
 
-      </ul>
-      <ul class="navbar-nav align-right" >
-        <li class="nav-item navpad">
-          <a class="nav-link navpad" href="#">Home </a>
-        </li>
-        <li class="nav-item navpad">
-          <a class="nav-link navpad" href="#about-us-section">About</a>
-        </li>
-        <li class="nav-item navpad">
-          <a class="nav-link navpad" href="#members-section"> Team </a>
-        </li>
-        <li class="nav-item eventnavpad">
-          <a class="nav-link" href="#events-section"> <button class="btn btn-success navbar-btn"> Events </button>  </a>
-        </li>
-      </ul>
-      </div>
-    </nav>
+            </ul>
+            <ul class="navbar-nav align-right">
+              <li class="nav-item navpad">
+                <a class="nav-link navpad" href="#">Home </a>
+              </li>
+              <li class="nav-item navpad">
+                <a class="nav-link navpad" href="#about-us-section">About</a>
+              </li>
+              <li class="nav-item navpad">
+                <a class="nav-link navpad" href="#members-section"> Team </a>
+              </li>
+              <li class="nav-item eventnavpad">
+                <a class="nav-link" href="#events-section">
+                  <button class="btn btn-success navbar-btn"> Events </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-  <div class="container align-center" id="welcome-div">
-    <div class="row justify-content-md-center h-100">
-      <div class="mbr-white col-md-10">
-        <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-3"><span style="font-weight: normal;"><br></span><br><br><span style="font-weight: normal;">        <br> Welcome to <span class="greentext"> Matrix</span> </span>
-        </h1>
-        <p class="mbr-text pb-3 mbr-fonts-style display-6 matrix-intro-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-<!--         <br>
+        <div class="container align-center" id="welcome-div">
+          <div class="row justify-content-md-center h-100">
+            <div class="mbr-white col-md-10">
+              <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-3">
+                <span style="font-weight: normal;">
+                  <br>
+                </span>
+                <br>
+                <br>
+                <span style="font-weight: normal;">
+                  <br> Welcome to
+                  <span class="greentext"> Matrix</span>
+                </span>
+              </h1>
+              <p class="mbr-text pb-3 mbr-fonts-style display-6 matrix-intro-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book.</p>
+              <!--         <br>
         <br>
         <br> -->
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
 
-    
-<!--END of NAVBAR html code -->
-</section>
 
-<section id="featured-section">
-  <!-- Featured Section -->
-  <div class="blackContents ">
-    <div class="container" id="featured-section-container">
-    <div class="featuredText">
-      <b>featured</b>
-    </div>
-      <div class="row">
-        <div class="sectionBox col-md-12 col-sm-12 col-lg-6">
-          <ul class="nav nav-tabs">
-            <li class="active">
-              <a data-toggle="tab" id="toggleOngoing" onclick="ongoing()" href="#ongoing" style="color:#21AC39 ; text-decoration: none ;font-weight:bold">Ongoing</a>
-            </li>
-            <li>
+      <!--END of NAVBAR html code -->
+    </section>
+
+    <section id="featured-section">
+      <!-- Featured Section -->
+      <div class="blackContents ">
+        <div class="container" id="featured-section-container">
+          <div class="featuredText">
+            <b>featured</b>
+          </div>
+          <div class="row">
+            <div class="sectionBox col-md-12 col-sm-12 col-lg-6">
+              <ul class="nav nav-tabs">
+                <li class="active">
+                  <a data-toggle="tab" id="toggleOngoing" onclick="ongoing()" href="#ongoing" style="color:#21AC39 ; text-decoration: none ;font-weight:bold">current news</a>
+                </li>
+                <!-- <li>
               <a data-toggle="tab" id="toggleUpcoming" onclick="upcoming()" href="#upcoming" style="margin-left:97px;color:#AFAFAF ; text-decoration: none">upcoming</a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="ongoing" class="tab-pane in active">
-              <div class="row">
-                <div class="col-md-1 customNumber">1</div>
-                <a href="javascript:void()" id="event1" onclick="toggleOngoingCardView1()" class="col-md-8 customTabText">team matrix ongoing event 1</a>
-                <img id='play1' class="col-md-2 imagePlayPosition" src="images/play.png">
-              </div>
-              <div class="row">
-                <div class="col-md-1 customNumber">2</div>
-                <a href="javascript:void()" id="event2" onclick="toggleOngoingCardView2()" class="col-md-8 customTabText">team matrix ongoing event 2</a>
-                <img id='play2' class="col-md-2 imagePlayPosition" src="images/play.png">
-              </div>
-              <div class="row">
-                <div class="col-md-1 customNumber">3</div>
-                <a href="javascript:void()" id="event3" onclick="toggleOngoingCardView3()" class="col-md-8 customTabText">team matrix ongoing event 3</a>
-                <img id='play3' class="col-md-2 imagePlayPosition" src="images/play.png">
-              </div>
-            </div>
-            <div id="upcoming" class="tab-pane">
-              <div class="row">
-                <div class="col-md-1 customNumber">1</div>
-                <a href="javascript:void()" id="eventupcome1" onclick="toggleUpcomingCardView1()" class="col-md-8 customTabText">team matrix upcoming event 1</a>
-                <img id='playOn1' class="col-md-2 imagePlayPosition" src="images/play.png">
-              </div>
-              <div class="row">
-                <div class="col-md-1 customNumber">2</div>
-                <a href="javascript:void()" id="eventupcome2" onclick="toggleUpcomingCardView2()" class="col-md-8 customTabText">team matrix upcoming event 2</a>
-                <img id='playOn2' class="col-md-2 imagePlayPosition" src="images/play.png">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="resize col-md-12 col-sm-12 col-lg-6"> 
-          <div id="cardon1" class="card customCard">
-            <img class="card-img-top test" src="images/event.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text detailedText">
-                <b>Lorem Ipsum is simply dummy text of the printing Printing and typesetting industry.</b>
-              </p>
-              <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
-                Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
-                the Internet.</p>
-              <p>
-                <b class="detailedText">October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b>
-              </p>
-              <div class="row">
-                <a href="https://www.google.com/">
-                  <img src="images/like.png" class="likeIcon">
-                </a>
-                <div class="live">Live</div>
-              </div>
-            </div>
-          </div>
-          <div id="cardon2" class="card customCard">
-            <img class="card-img-top test" src="images/event.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text detailedText">
-                <b class="detailedText">Here we present our ONGOING event 2 header.</b>
-              </p>
-              <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
-                Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
-                the Internet.</p>
-              <p>
-                <b class="detailedText">October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b>
-              </p>
-              <div class="row">
-                <a href="https://www.google.com/">
-                  <img src="images/like.png" class="likeIcon">
-                </a>
-                <div class="live">Live</div>
-              </div>
-            </div>
-          </div>
-          <div id="cardon3" class="card customCard">
-            <img class="card-img-top test" src="images/event.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text detailedText">
-                <b class="detailedText">Here we present our ONGOING event 3 header.</b>
-              </p>
-              <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
-                Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
-                the Internet.
-              </p>
-              <p>
-                <b class="detailedText">October 27th 2020 | 4.00 - 6.00 PM | At SCIT</b>
-              </p>
-              <div class="row">
-                <a href="https://www.google.com/">
-                  <img src="images/like.png" class="likeIcon">
-                </a>
-                <div class="live">Live</div>
-              </div>
-            </div>
-          </div>
-          <div id="cardup1" class="card customCard">
-            <img class="card-img-top test" src="images/event.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text detailedText">
-                <b class="detailedText">Here we present our UPCOMING event 1 header.</b>
-              </p>
-              <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
-                Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
-                the Internet.</p>
-              <p>
-                <b class="detailedText">October 06th 2020 | 5.00 - 6.00 PM | At SCIT</b>
-              </p>
-              <div class="row">
-                <button type="button" class="btn customButton">
-                  <b>Join Now</b>
-                </button>
-                <a href="https://www.google.com/">
-                  <img src="images/facebook.png" class="socialMediaIcon">
-                </a>
-                <a href="https://www.google.com/">
-                  <img src="images/ig.png" class="socialMediaIcon1">
-                </a>
-                <a href="https://www.google.com/">
-                  <img src="images/linkedin.png" class="socialMediaIcon1">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div id="cardup2" class="card customCard">
-            <img class="card-img-top test" src="images/event.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text detailedText">
-                <b class="detailedText">Lorem Ipsum is simply dummy text UPCOMING event 2.</b>
-              </p>
-              <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures:
-                Organisations running Docker in the cloud need to ensure that the management interface’s API is not exposed to
-                the Internet.</p>
-              <p>
-                <b class="detailedText">October 16th 2020 | 5.00 - 6.00 PM | At SCIT</b>
-              </p>
-              <div class="row">
-                <button type="button" class="btn customButton">
-                  <b>Join Now</b>
-                </button>
-                <a href="https://www.google.com/">
-                  <img src="images/facebook.png" class="socialMediaIcon">
-                </a>
-                <a href="https://www.google.com/">
-                  <img src="images/ig.png" class="socialMediaIcon1">
-                </a>
-                <a href="https://www.google.com/">
-                  <img src="images/linkedin.png" class="socialMediaIcon1">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> <!-- end contents -->
-    </div> <!-- end row -->
-  </div><!-- end featured section container -->
-</section>
-  <!-- /Featured Section -->
-
- <section id="media-section">
-  <!-- Green Background and Media heading -->
-    <div class="container-fluid wrappertitleup">
-      <div class="wrappertitle">
-        <div class="container">
-            <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <h2 class="heading">MEDIA</h2>
+            </li> -->
+              </ul>
+              <div class="tab-content">
+                <div id="ongoing" class="tab-pane in active">
+                  <div class="row">
+                    <div class="col-md-1 customNumber">1</div>
+                    <a href="javascript:void()" id="event1" onclick="toggleOngoingCardView1()" class="col-md-8 customTabText">Facebook Pysa</a>
+                    <img id='play1' class="col-md-2 imagePlayPosition" src="images/play.png">
+                  </div>
+                  <div class="row">
+                    <div class="col-md-1 customNumber">2</div>
+                    <a href="javascript:void()" id="event2" onclick="toggleOngoingCardView2()" class="col-md-8 customTabText">DNSDB 2.0</a>
+                    <img id='play2' class="col-md-2 imagePlayPosition" src="images/play.png">
+                  </div>
+                  <div class="row">
+                    <div class="col-md-1 customNumber">3</div>
+                    <a href="javascript:void()" id="event3" onclick="toggleOngoingCardView3()" class="col-md-8 customTabText">amazon alexa CORS</a>
+                    <img id='play3' class="col-md-2 imagePlayPosition" src="images/play.png">
+                  </div>
                 </div>
-           </div>
+                <div id="upcoming" class="tab-pane">
+                  <div class="row">
+                    <div class="col-md-1 customNumber">1</div>
+                    <a href="javascript:void()" id="eventupcome1" onclick="toggleUpcomingCardView1()" class="col-md-8 customTabText">team matrix upcoming event 1</a>
+                    <img id='playOn1' class="col-md-2 imagePlayPosition" src="images/play.png">
+                  </div>
+                  <div class="row">
+                    <div class="col-md-1 customNumber">2</div>
+                    <a href="javascript:void()" id="eventupcome2" onclick="toggleUpcomingCardView2()" class="col-md-8 customTabText">team matrix upcoming event 2</a>
+                    <img id='playOn2' class="col-md-2 imagePlayPosition" src="images/play.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="resize col-md-12 col-sm-12 col-lg-6">
+              <div id="cardon1" class="card customCard">
+                <img class="card-img-top test" src="https://pbs.twimg.com/media/Egl4rWLXkAM0ovi?format=jpg&name=small" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text detailedText">
+                    <b>Facebook's Pysa is an open-source tool developed to catch vulnerable code snippets written by engineers
+                      before they make it into production</b>
+                  </p>
+                  <p class="detailedText">Pysa is designed exclusively to analyze code written in Python. Python being the world’s second most widely
+                    used programming language, Pysa could be used by many companies. It’s especially popular in artificial
+                    intelligence development and is also the language in which most of the code for Instagram is written.</p>
+                  <!-- <p> -->
+                  <!-- <b class="detailedText">October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b> -->
+                  <!-- </p> -->
+                  <div class="row">
+                    <!-- <a href="https://twitter.com/teammatrixSCIT/status/1299702664503074817?s=20"> See More</a> -->
+                    <!-- <img src="images/like.png" class="likeIcon"> -->
+                    <!-- <i class="fa fa-twitter"></i> -->
+
+                    <!-- <div class="live">Live</div> -->
+                    <div class="container">
+                      <a href="https://www.facebook.com/teammatrixscit">
+                        <i class="fa fa-facebook fa-2x ml-2"></i>
+                      </a>
+                      <a href="https://twitter.com/teammatrixSCIT">
+                        <!-- <img src="images/ig.png" class="socialMediaIcon1"> -->
+                        <i class="fa fa-twitter fa-2x ml-2"></i>
+                      </a>
+                      <a href="https://www.instagram.com/teammatrixscit">
+                        <i class="fa fa-instagram fa-2x ml-2"></i>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div id="cardon2" class="card customCard">
+                <img class="card-img-top test" src="https://pbs.twimg.com/media/EgMDvwLVAAAGa1f?format=jpg&name=small" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text detailedText">
+                    <b class="detailedText">DNSDB’s 10th Anniversary gift to security professionals, threat hunters, and researchers everywhere offering
+                      brand new ways to search over 100 billion DNS records.</b>
+                  </p>
+                  <p class="detailedText">It enables security professionals to identify and map domain names and IP addresses associated with bad
+                    actors or used in malicious infrastructures, brand infringement campaigns, phishing schemes, ransomware
+                    and other cybercrime. General Availability for DNSDB 2.0 is scheduled for October 20th.</p>
+                  <!-- <p> -->
+                  <!-- <b class="detailedText">October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b> -->
+                  <!-- </p> -->
+                  <div class="row">
+                    <div class="container">
+                      <a href="https://www.facebook.com/teammatrixscit">
+                        <i class="fa fa-facebook fa-2x ml-2"></i>
+                      </a>
+                      <a href="https://twitter.com/teammatrixSCIT">
+                        <!-- <img src="images/ig.png" class="socialMediaIcon1"> -->
+                        <i class="fa fa-twitter fa-2x ml-2"></i>
+                      </a>
+                      <a href="https://www.instagram.com/teammatrixscit">
+                        <i class="fa fa-instagram fa-2x ml-2"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="cardon3" class="card customCard">
+                <img class="card-img-top test" src="https://pbs.twimg.com/media/EfY_xSDUEAEE8L9?format=jpg&name=small" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text detailedText">
+                    <b class="detailedText">Amazon fixed the security issues which were found by researchers in Amazon Alexa. </b>
+                  </p>
+                  <p class="detailedText">So, what can happen in this type of attack is that the hacker can exploit these vulnerabilities by sending
+                    the victim a specially crafted Amazon link, clicking which then directs them to Amazon where the attacker
+                    has code-injection capabilities. This could allow attackers to access a user’s voice history with Alexa
+                    and get their personal information, banking data history, usernames, phone numbers and home address.
+                  </p>
+                  <!-- <p>
+                    <b class="detailedText">October 27th 2020 | 4.00 - 6.00 PM | At SCIT</b>
+                  </p> -->
+                  <div class="row">
+                    <div class="container">
+                      <a href="https://www.facebook.com/teammatrixscit">
+                        <i class="fa fa-facebook fa-2x ml-2"></i>
+                      </a>
+                      <a href="https://twitter.com/teammatrixSCIT">
+                        <!-- <img src="images/ig.png" class="socialMediaIcon1"> -->
+                        <i class="fa fa-twitter fa-2x ml-2"></i>
+                      </a>
+                      <a href="https://www.instagram.com/teammatrixscit">
+                        <i class="fa fa-instagram fa-2x ml-2"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="cardup1" class="card customCard">
+                <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text detailedText">
+                    <b class="detailedText">Here we present our UPCOMING event 1 header.</b>
+                  </p>
+                  <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive
+                    Measures: Organisations running Docker in the cloud need to ensure that the management interface’s API
+                    is not exposed to the Internet.</p>
+                  <p>
+                    <b class="detailedText">October 06th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+                  </p>
+                  <div class="row">
+                    <button type="button" class="btn customButton">
+                      <b>Join Now</b>
+                    </button>
+                    <a href="https://www.google.com/">
+                      <img src="images/facebook.png" class="socialMediaIcon">
+                    </a>
+                    <a href="https://www.google.com/">
+                      <img src="images/ig.png" class="socialMediaIcon1">
+                    </a>
+                    <a href="https://www.google.com/">
+                      <img src="images/linkedin.png" class="socialMediaIcon1">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div id="cardup2" class="card customCard">
+                <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text detailedText">
+                    <b class="detailedText">Lorem Ipsum is simply dummy text UPCOMING event 2.</b>
+                  </p>
+                  <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive
+                    Measures: Organisations running Docker in the cloud need to ensure that the management interface’s API
+                    is not exposed to the Internet.</p>
+                  <p>
+                    <b class="detailedText">October 16th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+                  </p>
+                  <div class="row">
+                    <button type="button" class="btn customButton">
+                      <b>Join Now</b>
+                    </button>
+                    <a href="https://www.google.com/">
+                      <img src="images/facebook.png" class="socialMediaIcon">
+                    </a>
+                    <a href="https://www.google.com/">
+                      <img src="images/ig.png" class="socialMediaIcon1">
+                    </a>
+                    <a href="https://www.google.com/">
+                      <img src="images/linkedin.png" class="socialMediaIcon1">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end contents -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end featured section container -->
+    </section>
+    <!-- /Featured Section -->
+
+    <section id="media-section">
+      <!-- Green Background and Media heading -->
+      <div class="container-fluid wrappertitleup">
+        <div class="wrappertitle">
+          <div class="container">
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <h2 class="heading">MEDIA</h2>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <!--x/ Green Background and Media heading -->
+      <!--x/ Green Background and Media heading -->
 
-    <div class="container" id="media-carousel">
+      <div class="container" id="media-carousel">
         <div class="media-carousel main-carousel" data-flickity='{ "cellAlign": "center", "wrapAround": false, "autoPlay": true, "adaptiveHeight": true }'>
-            <div class="media-carousel carousel-cell">
-                <div class="media-carousel card mb-2 new">
-                    <img class="media-carousel card-img-top rounded"
-                        src="http://blog.teammatrix.org/wp-content/uploads/2020/08/2-%E2%80%93-3.png"
-                        alt="Card image 1">
-                    <div class="media-carousel card-body">
-                        <h4 class="media-carousel card-title">Are your smart devices really secure?</h4>
-                        <p class="media-carousel card-text text-black"> Imagine one fine day, you wake up and get a notification mail...</p>
-                        <a class="btn btn-outline-dark" href="http://blog.teammatrix.org/blog-2/">Read</a>
-                    </div>
-                </div>
+          <div class="media-carousel carousel-cell">
+            <div class="media-carousel card mb-2 new">
+              <img class="media-carousel card-img-top rounded" src="http://blog.teammatrix.org/wp-content/uploads/2020/08/2-%E2%80%93-3.png"
+                alt="Card image 1">
+              <div class="media-carousel card-body">
+                <h4 class="media-carousel card-title">Are your smart devices really secure?</h4>
+                <p class="media-carousel card-text text-black"> Imagine one fine day, you wake up and get a notification mail...</p>
+                <a class="btn btn-outline-dark" href="http://blog.teammatrix.org/blog-2/">Read</a>
+              </div>
             </div>
+          </div>
 
-            <div class="media-carousel carousel-cell">
-                <div class="media-carousel card mb-2 new">
-                    <img class="media-carousel card-img-top rounded"
-                        src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-                        alt="Card image 1">
-                    <div class="media-carousel card-body">
-                        <h4 class="media-carousel card-title">Information security in the age of Covid-19</h4>
-                        <p class="media-carousel card-text text-black">Covid-19 </p>
-                        <a class="btn btn-outline-dark" href="http://blog.teammatrix.org/2020/08/19/information-security-in-times-of-covid-19/">Read</a>
-                    </div>
-                </div>
+          <div class="media-carousel carousel-cell">
+            <div class="media-carousel card mb-2 new">
+              <img class="media-carousel card-img-top rounded" src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+                alt="Card image 1">
+              <div class="media-carousel card-body">
+                <h4 class="media-carousel card-title">Information security in the age of Covid-19</h4>
+                <p class="media-carousel card-text text-black">Covid-19 </p>
+                <a class="btn btn-outline-dark" href="http://blog.teammatrix.org/2020/08/19/information-security-in-times-of-covid-19/">Read</a>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-  </div>
-  </section>
+      </div>
+    </section>
 
     <section class="sec1" id="about-us-section">
       <div class="container mt-3" id="div1">
         <h1 class="head1">ABOUT US</h1>
         <br>
-        <ul class="nav nav-tabs" >
-          <li class="nav-item" >
-            <a class="nav-link about-us-nav-item active" data-toggle="tab" href="#matrix" >MATRIX</a>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link about-us-nav-item active" data-toggle="tab" href="#matrix">MATRIX</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link about-us-nav-item" data-toggle="tab" href="#isaca" >ISACA</a>
+            <a class="nav-link about-us-nav-item" data-toggle="tab" href="#isaca">ISACA</a>
           </li>
         </ul>
-        
+
         <div class="tab-content">
-          <div id="matrix" class="container tab-pane active fade show"><br>
-                    <div class="row">
-
-                        <div class="col-lg-6 col-md-6 col-12 " id="Abotus">
-                            <p class="textmatrix about-us-text">Team Matrix is a group of like minded people dedicated
-                                to research and awareness in the area of information security. Information security can
-                                only be successful if it is made an integral part of the day-to-day work
-                                responsibilities, and it is therefore necessary that everybody (in the organization )
-                                understands the importance of information security. Security awareness and training
-                                controls have been identified as a mandatory part of many standards and frameworks.
-                                Realizing this need a group of like minded security enthusiasts came together at SCIT,
-                                Pune to work for the cause.
-                                <br><br>
-
-                                Team Matrix was formed in 2009 with the intent of spreading in the area of information
-                                security. Late night discussions and planning led to the birth of Team Matrix.</p>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <img src="images\AboutUs.jpg" class="img-fluid ">
-                        </div>
-                    </div>
-                </div>
-
-                <div id="isaca" class="container tab-pane fade"><br>
-
-                    <div class="row">
-
-                        <div class="col-lg-6 col-md-6 col-12 " id="Abotus2">
-                            <p class="textisaca about-us-text">The ISACA community is guided by our Purpose and Promise,
-                                which defines the essence of who we are and what we do. Our Purpose is the reason we
-                                exist—to help business technology professionals and their enterprises around the world
-                                realize the positive potential of technology. Our Promise is how we, as an organization
-                                and as individuals, deliver on our Purpose: inspiring confidence that enables innovation
-                                through technology. Our work, and the work of the professional community we support, has
-                                never been more important.
-                                <br><br>
-
-                                ISACA has served our professional community for more than 50 years. The association was
-                                incorporated as the EDP Auditors Association in 1969 by a small group of individuals who
-                                recognized a need for a centralized source of information and guidance in the new field
-                                of electronic data processing audit. </p>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <img src="images\isaca.jpg" class="img-fluid ">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<section id="events-section">
-<div class="container-fluid wrappertitleup">
-	<div class="wrappertitle">
-            <div class="container">
-                <div class="row">
-                    <div class="col d-flex justify-content-center">
-                        <h2 class="heading">PAST EVENTS</h2>
-                    </div>
-					     </div>
-            </div>
-	</div>
-</div>
-			<!-- Past Event-->
-
-    <div class="container" id="events-carousel">
-        <div class="past-event-carousel" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": true, "adaptiveHeight": true }'>
-					
-	   <!-- Past Event 1 -->
-      <div class="carousel-cell">
-         
-            <div class="team-single"> 
-
-               <div class="side-one">
-                    <div class="past-event-carousel card text-white">
-            <img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
-            <h5 class="past-event-carousel card-subtitle mt-1">Past Event 1</h5>
-            <p class="past-event-carousel card-text">About </p>
-    
-          </div>
-               </div>
-         <div class="side-two">
-          <div class="past-event-carousel card text-white">
-          <a href="#"><img src="assets/Know More (1).png" class="img-fluid" alt="past event" /></a>
-        
-          </div>
-               </div>
-               
-            </div>
-         
-               </div>
-         <!-- XXX---Past event 1 -->
-         <!-- Past Event 2 -->
-		 <div class="carousel-cell">
-         
-            <div class="team-single"> 
-
-               <div class="side-one">
-                    <div class="past-event-carousel card text-white">
-						<img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
-						<h5 class="past-event-carousel card-subtitle mt-1">Past Event 2</h5>
-						<p class="past-event-carousel card-text">About </p>
-    
-					</div>
-               </div>
-			   <div class="side-two">
-					<div class="past-event-carousel card text-white">
-					<a href="#"><img src="assets/Know More (1).png" class="img-fluid" alt="past event" /></a>
-        
-					</div>
-               </div>
-               
-            </div>
-         
-               </div>
-         <!-- XXX past Event 2 -->
-         <!-- Past event 3 -->
-		 <div class="carousel-cell">
-         
-            <div class="team-single"> 
-
-               <div class="side-one">
-                    <div class="past-event-carousel card text-white">
-						<img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
-						<h5 class="past-event-carousel card-subtitle mt-1">Past Event 3</h5>
-						<p class="past-event-carousel card-text">About</p>
-    
-					</div>
-               </div>
-			   <div class="side-two">
-					<div class="past-event-carousel card text-white">
-					<a href="#"><img src="assets/Know More (1).png" class="img-fluid" alt="past event" /></a>
-        
-					</div>
-               </div>
-               
-            </div>
-        
-    </div>
- 
- 
-				<div class="carousel-cell">
-         
-            <div class="team-single"> 
-
-               <div class="side-one">
-                    <div class="past-event-carousel card text-white">
-						<img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
-						<h5 class="past-event-carousel card-subtitle mt-1">Past event 4</h5>
-						<p class="past-event-carousel card-text">About</p>
-    
-					</div>
-               </div>
-			   <div class="side-two">
-					<div class="past-event-carousel card text-white">
-					<a href="#"><img src="assets/Know More (1).png" class="img-fluid" alt="past event" /></a>
-        
-					</div>
-               </div>
-               
-            
-         </div>
-		</div>
-         <!-- XXX---Past event 4 -->
-         <!-- Past Event 5 -->
-		 <div class="carousel-cell">
-         
-            <div class="team-single"> 
-
-               <div class="side-one">
-                    <div class="past-event-carousel card text-white">
-						<img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
-						<h5 class="past-event-carousel card-subtitle mt-1">Past Event 5</h5>
-						<p class="past-event-carousel card-text">About </p>
-    
-					</div>
-               </div>
-			   <div class="side-two">
-					<div class="past-event-carousel card text-white">
-					<a href="#"><img src="assets/Know More (1).png" class="img-fluid" alt="past event" /></a>
-        
-					</div>
-               </div>
-               
-            
-         </div>
-		 </div>
-               
-         <!-- XXX past Event 5 -->
-         <!-- Past event 6 -->
-		 <div class="carousel-cell">
-         
-            <div class="team-single"> 
-
-               <div class="side-one">
-                    <div class="past-event-carousel card text-white">
-						<img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
-						<h5 class="past-event-carousel card-subtitle mt-1">Past Event 6</h5>
-						<p class="past-event-carousel card-text">About</p>
-    
-					</div>
-               </div>
-			   <div class="side-two">
-					<div class="past-event-carousel card text-white">
-					<a href="#"><img src="assets/Know More (1).png" class="img-fluid" alt="past event" /></a>
-        
-					</div>
-               </div>
-               
-            </div>
-         </div> <!-- Past Event 6 -->
-
-         
- </div>
-
-</section> <!-- End events-section -->
-
-<section id="members-section">
-
-         <!--XXXX Past Event -->            
- 
-        
-		 <!--MEMBERS PROFILE -->
-		 <div class="memberbg">
-        <div class="memberstitle">
-            <div class="container">
-                <div class="row">
-                    <div class="col d-flex justify-content-center">
-                        <h2 class="membersheading">TEAM MATRIX</h2>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- member profile starte from here -->
-        <div class="container wrappermain">
+          <div id="matrix" class="container tab-pane active fade show">
+            <br>
             <div class="row">
-                <div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://biographymask.com/wp-content/uploads/2020/07/Ji-Chang-wook-Actor.jpg">
-					<a href="#"><div class="overlay">
-					 <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg"></div>
-          </a>
-           <h4 class="name-heading">MEMBER 1</h4>
-            <p class="post-heading text-muted">Designation</p>
-                    
-                </div>
-                <div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
-                    <a href="#">
-					<div class="overlay">
-					<img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg"></div></a>
-					<h4 class="name-heading">MEMBER 2</h4>
-                    <p class="post-heading text-muted">Designation</p>
-            
-                </div>
-                <div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://pyxis.nymag.com/v1/imgs/9e5/3fa/ca4ec5904baab3457c3ae3835b71a78b59-23-dark-finale.rsquare.w700.jpg">
-                    <a href="#"><div class="overlay">
-					<img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg"></div></a>
-					<h4 class="name-heading">MEMBER 3</h4>
-                    <p class="post-heading text-muted">Designation</p>
-                    
-                </div>
-				<div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
-                    <a href="#"><div class="overlay">
-					<img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg"></div></a>
-					<h4 class="name-heading">MEMBER 4</h4>
-                    <p class="post-heading text-muted">Designation</p>
-                    
 
-                </div><div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
-                    <a href="#"><div class="overlay">
-					<img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg"></div></a>
-					<h4 class="name-heading">MEMBER 5</h4>
-                    <p class="post-heading text-muted">Designation</p>
-                    
+              <div class="col-lg-6 col-md-6 col-12 " id="Abotus">
+                <p class="textmatrix about-us-text">Team Matrix is a group of like minded people dedicated to research and awareness in the area of information
+                  security. Information security can only be successful if it is made an integral part of the day-to-day
+                  work responsibilities, and it is therefore necessary that everybody (in the organization ) understands
+                  the importance of information security. Security awareness and training controls have been identified as
+                  a mandatory part of many standards and frameworks. Realizing this need a group of like minded security
+                  enthusiasts came together at SCIT, Pune to work for the cause.
+                  <br>
+                  <br> Team Matrix was formed in 2009 with the intent of spreading in the area of information security. Late
+                  night discussions and planning led to the birth of Team Matrix.</p>
+              </div>
 
-                </div><div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
-                    <a href="#"><div class="overlay">
-					<img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg"></div></a>
-					<h4 class="name-heading">MEMBER 6</h4>
-                    <p class="post-heading text-muted">Designation</p>
-                    
-
-                </div>
-                <div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
-                    <a href="#"><div class="overlay">
-					<img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg"></div></a>
-					<h4 class="name-heading">MEMBER 7</h4>
-                    <p class="post-heading text-muted">Designation</p>
-                    
-
-                </div><div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
-                    <a href="#"><div class="overlay">
-					<img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg" ></div></a>
-					<h4 class="name-heading">MEMBER 8</h4>
-                    <p class="post-heading text-muted">Designation</p>
-                    
-
-                </div><div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
-                    <a href="#"><div class="overlay">
-					<img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg"></div></a>
-					<h4 class="name-heading">MEMBER 9</h4>
-                    <p class="post-heading text-muted">Designation</p>
-                    
-
-                </div><div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
-                    <a href="#"><div class="overlay">
-					<img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg"></div></a>
-					<h4 class="name-heading">MEMBER 10</h4>
-                    <p class="post-heading text-muted">Designation</p>
-                    
-
-                </div><div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
-                    <a href="#"><div class="overlay">
-					<img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg"></div></a>
-					<h4 class="name-heading">MEMBER 11</h4>
-                    <p class="post-heading text-muted">Designation</p>
-                    
-
-                </div><div class="col">
-                    <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
-                    <a href="#"><div class="overlay">
-					<img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg" ></div></a>
-					<h4 class="name-heading">MEMBER 12</h4>
-                    <p class="post-heading text-muted">Designation</p>
-                    
-
-                </div> <!-- end of the member-->
+              <div class="col-lg-6 col-md-6 col-12">
+                <img src="images\AboutUs.jpg" class="img-fluid ">
+              </div>
             </div>
+          </div>
+
+          <div id="isaca" class="container tab-pane fade">
+            <br>
+
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6 col-12 " id="Abotus2">
+                <p class="textisaca about-us-text">The ISACA community is guided by our Purpose and Promise, which defines the essence of who we are and what
+                  we do. Our Purpose is the reason we exist—to help business technology professionals and their enterprises
+                  around the world realize the positive potential of technology. Our Promise is how we, as an organization
+                  and as individuals, deliver on our Purpose: inspiring confidence that enables innovation through technology.
+                  Our work, and the work of the professional community we support, has never been more important.
+                  <br>
+                  <br> ISACA has served our professional community for more than 50 years. The association was incorporated as
+                  the EDP Auditors Association in 1969 by a small group of individuals who recognized a need for a centralized
+                  source of information and guidance in the new field of electronic data processing audit. </p>
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-12">
+                <img src="images\isaca.jpg" class="img-fluid ">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-</section>
-	  <!-- end of the members profile -->
-
-</div>
-    <section class="sec2 Footer p-2">
-      <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="Symbiosis_white">
-                        <img src="images\Logo Symbiosis_white.png" class="img-fluid">
-                        <img src="images\matrix-logo-white.png" class="img-fluid " id="matLogo">
-                    </div>
-                    <hr class="w-75 max-auto" id="hr1">
-                    <div class="part">
-                        <p id="part1">
-                            Symbiosis Centre of Information Technology </p>
-                        <p id="part2">Plot No.15, Rajiv Gandhi Infotech Park, MIDC,<br> Hinjewadi, Pune, Maharashtra
-                            411057 <br><br>
-                        </p>
-                        <p id="part3">+91-020-22944140 / 130 <br>teammatrix@associates.scit.edu</p>
-
-                        <a id="img1"
-                            href="https://www.facebook.com/scitpune/photos/scit-team-matrix-in-association-with-isaca-proudly-presents-its-flagship-event-c/1780876435535289/"
-                            target="_blank"><img src="images\ic_header_facebook.svg" class="img-fluid"></a>
-                        <a id="img2"
-                            href="https://in.linkedin.com/public-profile/in/team-matrix-scit-93a58358?challengeId=AQGw8QXLgbogrQAAAXQFqYvUyEpR6PHkq4Of9KERKJOeiHZmXLSDH4SXBXrQQX_fDgX76Rcv6hx0s4BoQU9IUokMx5rouCnIoQ&submissionId=6fb54046-669b-2c16-fe1d-f69619c8f470"
-                            target="_blank"><img src="images\ic_header_linkedin.svg" class="img-fluid"></a>
-                        <a id="img3" href="https://www.instagram.com/teammatrixscit/" target="_blank"><img
-                                src="images\ic_header_facebook.svg" class="img-fluid"></a>
-                        <a id="img4"><img src="images\ic_header_facebook.svg" class="img-fluid"></a>
-                    </div>
-                  </div>
-
-
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="row" id="FootrRight">
-                        <div>
-                            <p>Events</p>
-                            <p>Past Events</p>
-                            <p>Our Team</p>
-                        </div>
-                        <div id="Footr2">
-                            <p>Home</p>
-                            <p>About Us</p>
-                            <p>Team</p>
-                            <p>Blog</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </footer>
     </section>
+
+    <section id="events-section">
+      <div class="container-fluid wrappertitleup">
+        <div class="wrappertitle">
+          <div class="container">
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <h2 class="heading">PAST EVENTS</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Past Event-->
+
+      <div class="container" id="events-carousel">
+        <div class="past-event-carousel" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": true, "adaptiveHeight": true }'>
+
+          <!-- Past Event 1 -->
+          <div class="carousel-cell">
+
+            <div class="team-single">
+
+              <div class="side-one">
+                <div class="past-event-carousel card text-white">
+                  <img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
+                  <h5 class="past-event-carousel card-subtitle mt-1">Past Event 1</h5>
+                  <p class="past-event-carousel card-text">About </p>
+
+                </div>
+              </div>
+              <div class="side-two">
+                <div class="past-event-carousel card text-white">
+                  <a href="#">
+                    <img src="assets/Know More (1).png" class="img-fluid" alt="past event" />
+                  </a>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- XXX---Past event 1 -->
+          <!-- Past Event 2 -->
+          <div class="carousel-cell">
+
+            <div class="team-single">
+
+              <div class="side-one">
+                <div class="past-event-carousel card text-white">
+                  <img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
+                  <h5 class="past-event-carousel card-subtitle mt-1">Past Event 2</h5>
+                  <p class="past-event-carousel card-text">About </p>
+
+                </div>
+              </div>
+              <div class="side-two">
+                <div class="past-event-carousel card text-white">
+                  <a href="#">
+                    <img src="assets/Know More (1).png" class="img-fluid" alt="past event" />
+                  </a>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- XXX past Event 2 -->
+          <!-- Past event 3 -->
+          <div class="carousel-cell">
+
+            <div class="team-single">
+
+              <div class="side-one">
+                <div class="past-event-carousel card text-white">
+                  <img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
+                  <h5 class="past-event-carousel card-subtitle mt-1">Past Event 3</h5>
+                  <p class="past-event-carousel card-text">About</p>
+
+                </div>
+              </div>
+              <div class="side-two">
+                <div class="past-event-carousel card text-white">
+                  <a href="#">
+                    <img src="assets/Know More (1).png" class="img-fluid" alt="past event" />
+                  </a>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="carousel-cell">
+
+            <div class="team-single">
+
+              <div class="side-one">
+                <div class="past-event-carousel card text-white">
+                  <img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
+                  <h5 class="past-event-carousel card-subtitle mt-1">Past event 4</h5>
+                  <p class="past-event-carousel card-text">About</p>
+
+                </div>
+              </div>
+              <div class="side-two">
+                <div class="past-event-carousel card text-white">
+                  <a href="#">
+                    <img src="assets/Know More (1).png" class="img-fluid" alt="past event" />
+                  </a>
+
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <!-- XXX---Past event 4 -->
+          <!-- Past Event 5 -->
+          <div class="carousel-cell">
+
+            <div class="team-single">
+
+              <div class="side-one">
+                <div class="past-event-carousel card text-white">
+                  <img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
+                  <h5 class="past-event-carousel card-subtitle mt-1">Past Event 5</h5>
+                  <p class="past-event-carousel card-text">About </p>
+
+                </div>
+              </div>
+              <div class="side-two">
+                <div class="past-event-carousel card text-white">
+                  <a href="#">
+                    <img src="assets/Know More (1).png" class="img-fluid" alt="past event" />
+                  </a>
+
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+          <!-- XXX past Event 5 -->
+          <!-- Past event 6 -->
+          <div class="carousel-cell">
+
+            <div class="team-single">
+
+              <div class="side-one">
+                <div class="past-event-carousel card text-white">
+                  <img src="assets/wargame.jpg" class="img-fluid" alt="past event" />
+                  <h5 class="past-event-carousel card-subtitle mt-1">Past Event 6</h5>
+                  <p class="past-event-carousel card-text">About</p>
+
+                </div>
+              </div>
+              <div class="side-two">
+                <div class="past-event-carousel card text-white">
+                  <a href="#">
+                    <img src="assets/Know More (1).png" class="img-fluid" alt="past event" />
+                  </a>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- Past Event 6 -->
+
+
+        </div>
+
+    </section>
+    <!-- End events-section -->
+
+    <section id="members-section">
+
+      <!--XXXX Past Event -->
+
+
+      <!--MEMBERS PROFILE -->
+      <div class="memberbg">
+        <div class="memberstitle">
+          <div class="container">
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <h2 class="membersheading">TEAM MATRIX</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- member profile starte from here -->
+        <div class="container wrappermain">
+          <div class="row">
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://biographymask.com/wp-content/uploads/2020/07/Ji-Chang-wook-Actor.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 1</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+            </div>
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 2</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+            </div>
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://pyxis.nymag.com/v1/imgs/9e5/3fa/ca4ec5904baab3457c3ae3835b71a78b59-23-dark-finale.rsquare.w700.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 3</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+            </div>
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 4</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+
+            </div>
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 5</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+
+            </div>
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 6</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+
+            </div>
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 7</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+
+            </div>
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 8</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+
+            </div>
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 9</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+
+            </div>
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 10</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+
+            </div>
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 11</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+
+            </div>
+            <div class="col">
+              <img class="img-responsive rounded-circle team-images mt-3" src="https://www.pinkvilla.com/files/happy-birthday-emilia-clarke-5-daenerys-targaryen-moments-that-prove-khaleesi-deserved-a-better-ending-in-got.jpg">
+              <a href="#">
+                <div class="overlay">
+                  <img class="img-responsive rounded-circle team-images mt-3" src="https://www.qtoptometry.com/wp-content/uploads/2018/11/LinkedIn-Logo.jpg">
+                </div>
+              </a>
+              <h4 class="name-heading">MEMBER 12</h4>
+              <p class="post-heading text-muted">Designation</p>
+
+
+            </div>
+            <!-- end of the member-->
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- end of the members profile -->
+
+  </div>
+  <section class="sec2 Footer p-2">
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="Symbiosis_white">
+              <img src="images\Logo Symbiosis_white.png" class="img-fluid">
+              <img src="images\matrix-logo-white.png" class="img-fluid " id="matLogo">
+            </div>
+            <hr class="w-75 max-auto" id="hr1">
+            <div class="part">
+              <p id="part1">
+                Symbiosis Centre of Information Technology </p>
+              <p id="part2">Plot No.15, Rajiv Gandhi Infotech Park, MIDC,
+                <br> Hinjewadi, Pune, Maharashtra 411057
+                <br>
+                <br>
+              </p>
+              <p id="part3">+91-020-22944140 / 130
+                <br>teammatrix@associates.scit.edu</p>
+
+              <a id="img1" href="https://www.facebook.com/scitpune/photos/scit-team-matrix-in-association-with-isaca-proudly-presents-its-flagship-event-c/1780876435535289/"
+                target="_blank">
+                <img src="images\ic_header_facebook.svg" class="img-fluid">
+              </a>
+              <a id="img2" href="https://in.linkedin.com/public-profile/in/team-matrix-scit-93a58358?challengeId=AQGw8QXLgbogrQAAAXQFqYvUyEpR6PHkq4Of9KERKJOeiHZmXLSDH4SXBXrQQX_fDgX76Rcv6hx0s4BoQU9IUokMx5rouCnIoQ&submissionId=6fb54046-669b-2c16-fe1d-f69619c8f470"
+                target="_blank">
+                <img src="images\ic_header_linkedin.svg" class="img-fluid">
+              </a>
+              <a id="img3" href="https://www.instagram.com/teammatrixscit/" target="_blank">
+                <img src="images\ic_header_facebook.svg" class="img-fluid">
+              </a>
+              <a id="img4">
+                <img src="images\ic_header_facebook.svg" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="row" id="FootrRight">
+              <div>
+                <p>Events</p>
+                <p>Past Events</p>
+                <p>Our Team</p>
+              </div>
+              <div id="Footr2">
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Team</p>
+                <p>Blog</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
 
 </body>
 
