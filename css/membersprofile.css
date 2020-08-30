@@ -33,7 +33,7 @@ body{
 }
 .past-event-carousel.card{
 	border: 0px solid rgba(0,0,0,.125);
-	background-color: Grey;
+	background-color: Black;
 	border-radius:1rem;
 	border-width:0px;
 	width:300px;
@@ -48,6 +48,10 @@ p{
 
 .past-event-carousel.card-body {
  padding: 0.5rem;
+}
+.past-events.carousel-cell img{
+	min-height:200px;
+	
 }
 p.past-event-carousel.card-text{
 	font-size: 0.90rem;
@@ -98,13 +102,14 @@ p.past-event-carousel.card-text{
 }
 
 .memberstitle{
-	padding-top:70px;
+	padding-top:150px;
     margin-top:0px;
 }
 
 .team-images{
-    width: 135x;
-    height: 135px;
+    width: 	150px;
+    height: 150px;
+	
 
 }
 .overlay {
@@ -134,19 +139,29 @@ p.past-event-carousel.card-text{
 }
 
 .wrappermain{
-    margin-top: 35px;
+    margin-top: 75px;
 	padding-bottom: 21px;
 }
 
 .name-heading{
       color: white;
     margin-top: 10px;
-	font-size:15px;
+	font-size:20px;
 	
 }
 
 .post-heading{
-    font-family: 'Roboto Slab', serif;
-	font-size:14px;
+	font-size:20px;
 }
-
+.meetinfo a{
+	background-color:black;
+	margin-top: 50px;
+	height:100px;
+	color: white;
+	font-size:30px;
+	text-decoration:none;
+    font-weight: bold;
+    text-align: center;
+	margin-bottom:10em;
+	
+}
