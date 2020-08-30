@@ -60,6 +60,9 @@
       .nav-tabs {
         /*border-bottom: none;*/
       }
+      .AboutUsNFooter{
+        padding-bottom: 25px;
+      }
       .sec1 {
         background-color: #000000;
       }
@@ -119,4 +122,10 @@
         color: white; 
         padding-top : 100px; 
         padding-left: 100px;
+      }
+      .instagram{
+        height: 25px;
+      }
+      .twitter{
+        height: 25px;
       }
