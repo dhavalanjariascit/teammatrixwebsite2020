@@ -71,12 +71,12 @@ body{
 
 #media-carousel {
     min-height: 20rem;
-    transform: translateY(-25%);
+
     margin-top: 2%;
 }
 
 .media-carousel.carousel-cell {
-    min-height: 500px; /* This fix includes a fix for flickity where adaptive height is not working properly 
+    min-height: 700px; /* This fix includes a fix for flickity where adaptive height is not working properly 
    So we do it ourselves by setting the min-height, ensuring that the height of a cell will be at least 420 px*/
    border-radius: 30px !important;
 }
@@ -91,3 +91,7 @@ body{
     border-radius: 30px !important
 }
 
+
+.media-carouse.card-text {
+    color: black;
+}
