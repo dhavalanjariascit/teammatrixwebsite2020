@@ -87,11 +87,13 @@ body{
 
 }
 
-.media-carousel.carousel-cell.card img {
-    border-radius: 30px !important
+.media-carousel.card-img-top {
+    border-radius: 30px !important;
+    height: 150px;
 }
 
 
-.media-carouse.card-text {
+.media-carousel.card-text {
     color: black;
+    height: 200px;
 }
