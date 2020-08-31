@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
     crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -87,8 +87,21 @@
     </section>
 
 
+    <section id="year-navigation">
+      <div id="year-nav-scrollspy" class="text-success">
+        <ul class="list-group">
+          <li class="">
+            <a class="btn btn-sm btn-success  year-nav-item" href="#gallery-section-2019">2019
+          </a>
+          <li class="">
+            <a class="btn btn-sm btn-success year-nav-item" href="#gallery-section-2018">2018
+          </a>
+        </ul>
+
+    </section>
 
 
+  <div id="scrollspy-div" data-spy="scroll" data-target="#year-navigation" data-offset="0">
 
     <section id="gallery-section-2019">
       <!-- Green Background and Media heading -->
@@ -97,7 +110,7 @@
           <div class="container">
             <div class="row">
               <div class="col d-flex justify-content-center">
-                <h2 class="heading">2019</h2>
+                <h2 class="heading" >2019</h2>
               </div>
             </div>
           </div>
@@ -166,6 +179,7 @@
       </div>
     </section>
 
+</div> <!-- stop scrollspy -->
 
 </body>
 
