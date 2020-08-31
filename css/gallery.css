@@ -1,0 +1,20 @@
+.gallery.carousel-cell {
+	margin-right: 1em;
+	width: auto;
+}
+
+.gallery.carousel-cell img {
+	height: 1000px;
+	width: auto;
+	display: block;
+}
+
+.img-caption {
+	color: white;
+
+}
+
+#year-navigation {
+	top: 10%;
+}
+
