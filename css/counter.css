@@ -1,0 +1,49 @@
+.middle {
+    width: 100%;
+    transform: translateY(-50%);
+    margin-bottom: -200px;
+}
+
+.counting-sec {
+    padding: 40px 0;
+    width: 100%;
+    background-color: #21AC39;
+}
+
+.inner-width {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+}
+
+.counter {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.resize {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #FFFFFF;
+}

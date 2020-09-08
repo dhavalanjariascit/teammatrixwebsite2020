@@ -6,14 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Matrix 2020</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
@@ -27,11 +24,13 @@
     <link rel="stylesheet" href="./css/navbar-additional.css">
     <link rel="stylesheet" href="./css/global.css">
     <link href="./css/navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/counter.css">
+
 
     <!-- JavaScript -->
     <script src="./js/media-carousel.js"></script>
     <script type="text/javascript" src="js/featured.js"></script>
-
+    <script type="text/javascript" src="js/counter.js"></script>
 
 </head>
 
@@ -49,8 +48,10 @@
                         <img src="images/matrix-logo-white@2x.png" style="height: 3.0rem;"> &nbsp; </a>
                     <img src="images/Logo%20Symbiosis_white@2x.png" height="30px">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mr-auto">
 
@@ -67,7 +68,7 @@
                                 <a class="nav-link navpad" href="#featured-section">Featured</a>
                             </li>
                             <li class="nav-item navpad">
-                                <a class="nav-link navpad" href="#media-section">Media</a>
+                                <a class="nav-link navpad" href="#media-section">Blog</a>
                             </li>
                             <li class="nav-item navpad">
                                 <a class="nav-link navpad" href="#about-us-section">About</a>
@@ -90,13 +91,15 @@
                         <div class="mbr-white col-md-10">
                             <h1 class="display-3">
                                 <span style="font-weight: normal;">
-                  <br>
-                </span>
+
+                                    <br>
+                                </span>
                                 <br>
                                 <br>
                                 <span style="font-weight: normal; color:white;">
-                  <br> Welcome to
-                  <span class="greentext"> Matrix</span>
+                                    <br> Welcome to
+                                    <span class="greentext"> Matrix</span>
+
                                 </span>
                             </h1>
                             <p class="display-6 matrix-intro-text">We are a student driven community of proactive individuals in the buzzing field of information security with our main focus on spreading cyber security awareness by learning, implementing and reforming our knowledge. Want to
@@ -151,12 +154,18 @@
                                 <div id="upcoming" class="tab-pane">
                                     <div class="row">
                                         <div class="col-md-1 customNumber">1</div>
-                                        <a href="javascript:void()" id="eventupcome1" onclick="toggleUpcomingCardView1()" class="col-md-8 customTabText">team matrix upcoming event 1</a>
+
+
+
+                                        <a href="javascript:void()" id="eventupcome1" onclick="toggleUpcomingCardView1()" class="col-md-8 customTabText">team
+                                            matrix upcoming event 1</a>
                                         <img id='playOn1' class="col-md-2 imagePlayPosition" src="images/play.png">
                                     </div>
                                     <div class="row">
                                         <div class="col-md-1 customNumber">2</div>
-                                        <a href="javascript:void()" id="eventupcome2" onclick="toggleUpcomingCardView2()" class="col-md-8 customTabText">team matrix upcoming event 2</a>
+
+                                        <a href="javascript:void()" id="eventupcome2" onclick="toggleUpcomingCardView2()" class="col-md-8 customTabText">team
+                                            matrix upcoming event 2</a>
                                         <img id='playOn2' class="col-md-2 imagePlayPosition" src="images/play.png">
                                     </div>
                                 </div>
@@ -167,9 +176,12 @@
                                 <img class="card-img-top test" src="https://pbs.twimg.com/media/Egl4rWLXkAM0ovi?format=jpg&name=small" alt="Card image cap">
                                 <div class="card-body">
                                     <p class="card-text detailedText">
-                                        <b>Facebook's Pysa is an open-source tool developed to catch vulnerable code snippets written by
-                      engineers
-                      before they make it into production</b>
+
+                                        <b>Facebook's Pysa is an open-source tool developed to catch vulnerable code
+                                            snippets written by
+                                            engineers
+                                            before they make it into production</b>
+
                                     </p>
                                     <p class="detailedText">Pysa is designed exclusively to analyze code written in Python. Python being the world’s second most widely used programming language, Pysa could be used by many companies. It’s especially popular in artificial intelligence
                                         development and is also the language in which most of the code for Instagram is written.
@@ -185,14 +197,15 @@
                                         <!-- <div class="live">Live</div> -->
                                         <div class="container">
                                             <a href="https://www.facebook.com/teammatrixscit">
-                                                <i class="fa fa-facebook fa-2x ml-2"></i>
+
+                                                <i class="fab fa-facebook-f fa-2x ml-2"></i>
                                             </a>
                                             <a href="https://twitter.com/teammatrixSCIT">
                                                 <!-- <img src="images/ig.png" class="socialMediaIcon1"> -->
-                                                <i class="fa fa-twitter fa-2x ml-2"></i>
+                                                <i class="fab fa-twitter fa-2x ml-2"></i>
                                             </a>
                                             <a href="https://www.instagram.com/teammatrixscit">
-                                                <i class="fa fa-instagram fa-2x ml-2"></i>
+                                                <i class="fab fa-instagram fa-2x ml-2"></i>
                                             </a>
                                         </div>
 
@@ -203,12 +216,16 @@
                                 <img class="card-img-top test" src="https://pbs.twimg.com/media/EgMDvwLVAAAGa1f?format=jpg&name=small" alt="Card image cap">
                                 <div class="card-body">
                                     <p class="card-text detailedText">
-                                        <b class="detailedText">DNSDB’s 10th Anniversary gift to security professionals, threat hunters, and
-                      researchers everywhere offering
-                      brand new ways to search over 100 billion DNS records.</b>
+
+                                        <b class="detailedText">DNSDB’s 10th Anniversary gift to security professionals,
+                                            threat hunters, and
+                                            researchers everywhere offering
+                                            brand new ways to search over 100 billion DNS records.</b>
                                     </p>
                                     <p class="detailedText">It enables security professionals to identify and map domain names and IP addresses associated with bad actors or used in malicious infrastructures, brand infringement campaigns, phishing schemes, ransomware and other
-                                        cybercrime. General Availability for DNSDB 2.0 is scheduled for October 20th.</p>
+                                        cybercrime. General Availability for DNSDB 2.0 is scheduled for October 20th.
+                                    </p>
+
                                     <!-- <p> -->
                                     <!-- <b class="detailedText">October 26th 2020 | 5.00 - 6.00 PM | At SCIT</b> -->
                                     <!-- </p> -->
@@ -232,8 +249,10 @@
                                 <img class="card-img-top test" src="https://pbs.twimg.com/media/EfY_xSDUEAEE8L9?format=jpg&name=small" alt="Card image cap">
                                 <div class="card-body">
                                     <p class="card-text detailedText">
-                                        <b class="detailedText">Amazon fixed the security issues which were found by researchers in Amazon
-                      Alexa. </b>
+                                        <b class="detailedText">Amazon fixed the security issues which were found by
+                                            researchers in Amazon
+                                            Alexa. </b>
+
                                     </p>
                                     <p class="detailedText">So, what can happen in this type of attack is that the hacker can exploit these vulnerabilities by sending the victim a specially crafted Amazon link, clicking which then directs them to Amazon where the attacker has
                                         code-injection capabilities. This could allow attackers to access a user’s voice history with Alexa and get their personal information, banking data history, usernames, phone numbers and home address.
@@ -270,8 +289,8 @@
                                     </p>
                                     <div class="row">
                                         <button type="button" class="btn customButton">
-                      <b>Join Now</b>
-                    </button>
+                                            <b>Join Now</b>
+                                        </button>
                                         <a href="https://www.google.com/">
                                             <img src="images/facebook.png" class="socialMediaIcon">
                                         </a>
@@ -297,8 +316,10 @@
                                     </p>
                                     <div class="row">
                                         <button type="button" class="btn customButton">
-                      <b>Join Now</b>
-                    </button>
+
+                                            <b>Join Now</b>
+                                        </button>
+
                                         <a href="https://www.google.com/">
                                             <img src="images/facebook.png" class="socialMediaIcon">
                                         </a>
@@ -327,7 +348,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col d-flex justify-content-center">
-                                <h2 class="heading">MEDIA</h2>
+                                <h2 class="heading">BLOG</h2>
                             </div>
                         </div>
                         <div class="row">
@@ -338,6 +359,7 @@
                             </div>
                         </div>
                     </div>
+
 
                 </div>
             </div>
@@ -394,7 +416,8 @@
                                 <p class="textmatrix about-us-text">Team Matrix is a group of like minded people dedicated to research and awareness in the area of information security. Information security can only be successful if it is made an integral part of the day-to-day work responsibilities,
                                     and it is therefore necessary that everybody (in the organization ) understands the importance of information security. Security awareness and training controls have been identified as a mandatory part of many standards
                                     and frameworks. Realizing this need a group of like minded security enthusiasts came together at SCIT, Pune to work for the cause.
-                                    <br><br> Team Matrix was formed in 2009 with the intent of spreading in the area of information security. Late night discussions and planning led to the birth of Team Matrix.</p>
+                                    <br><br> Team Matrix was formed in 2009 with the intent of spreading in the area of information security. Late night discussions and planning led to the birth of Team Matrix.
+                                </p>
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-12">
@@ -513,8 +536,6 @@
                         </div>
 
                     </div>
-
-
                     <!-- XXX---Past event 3 -->
 
                     <!-- Past event 4 -->
@@ -531,20 +552,16 @@
 
                                 </div>
                             </div>
+
                             <div class="side-two">
                                 <div class="past-event-carousel card text-white">
                                     <a href="http://teammatrix.org/gallery/index.php?/albums/csam-2017/">
                                         <img src="assets/Know More (1).png" class="img-fluid" alt="past event" />
                                     </a>
-
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
-
-
 
                     <!-- XXX---Past event 4-->
                     <!-- Past event 5 -->
@@ -575,6 +592,8 @@
 
 
                     <!-- XXX---Past event 5 -->
+
+
                     <!-- Past event 6 -->
                     <div class="past-events carousel-cell">
 
@@ -596,9 +615,16 @@
                                 </div>
                             </div>
 
+
                         </div>
 
+
                     </div>
+
+
+
+
+
 
 
                     <!-- XXX---Past event 6 -->
@@ -650,22 +676,59 @@
                                 </div>
                             </div>
 
-                        </div>
 
+                        </div>
                     </div>
 
 
-                    <!--XXXX--past event 8-->
 
                 </div>
+            </div>
 
         </section>
         <!-- End events-section -->
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+        <!-- Animate Counter -->
+
+        <section id="animated-counter" class="animatedcount">
+
+
+            <div class="middle count-margin">
+                <div class="counting-sec">
+                    <div class="inner-width">
+                        <div class="counter">
+                            <i class="fas fa-smile-wink fa-2x resize"></i>
+                            <h2 class="timer count-title count-number" data-to="600" data-speed="1500"></h2>
+                            <p class="count-text "><b>Members over the years</b></p>
+                        </div>
+                        <div class="counter">
+                            <i class="fas fa-user-circle fa-2x resize"></i>
+                            <h2 class="timer count-title count-number" data-to="3000" data-speed="1500"></h2>
+                            <p class="count-text "><b>Participants</b></p>
+                        </div>
+                        <div class="counter">
+                            <i class="fas fa-calendar-alt fa-2x resize"></i>
+                            <h2 class="timer count-title count-number" data-to="40" data-speed="1500"></h2>
+                            <p class="count-text "><b>Events</b></p>
+                        </div>
+
+
+                        <div class="counter">
+                            <i class="fab fa-teamspeak fa-2x resize"></i>
+                            <h2 class="timer count-title count-number" data-to="60" data-speed="1500"></h2>
+                            <p class="count-text "><b>Speakers</b></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--xxx--- Animated Counter ---xxx-->
 
         <section id="members-section">
-
-            <!--XXXX Past Event -->
-
 
             <!--MEMBERS PROFILE -->
             <div class="memberbg">
@@ -744,12 +807,7 @@
 
         </section>
         </div>
-
         <!-- end of the members profile -->
-
-
-
-        </div>
         <section class="sec2 Footer p-2">
             <footer class="footer">
                 <div class="container-fluid">
@@ -766,8 +824,8 @@
                                 <p id="part2">Plot No.15, Rajiv Gandhi Infotech Park, MIDC,<br> Hinjewadi, Pune, Maharashtra 411057 <br>
                                 </p>
                                 <p id="part3">
-                                    <!-- +91-020-22944140 / 130 <br> -->teammatrix@associates.scit.edu</p>
-
+                                    <!-- +91-020-22944140 / 130 <br> -->teammatrix@associates.scit.edu
+                                </p>
                                 <a id="img1" href="https://www.facebook.com/scitpune/photos/scit-team-matrix-in-association-with-isaca-proudly-presents-its-flagship-event-c/1780876435535289/" target="_blank"><img src="images\ic_header_facebook.svg" class="img-fluid"></a>
                                 <!-- <a id="img2"
                             href="https://in.linkedin.com/public-profile/in/team-matrix-scit-93a58358?challengeId=AQGw8QXLgbogrQAAAXQFqYvUyEpR6PHkq4Of9KERKJOeiHZmXLSDH4SXBXrQQX_fDgX76Rcv6hx0s4BoQU9IUokMx5rouCnIoQ&submissionId=6fb54046-669b-2c16-fe1d-f69619c8f470"

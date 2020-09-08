@@ -1,18 +1,18 @@
 /******* Global Class ******/
 
-body{
+body {
     background-color: #000000;
 }
 
 
-
 /******* Green Background & Heading ********/
-.bck-color{
+
+.bck-color {
     height: 263px;
     background-color: #21AC39;
 }
 
-.bck-heading{
+.bck-heading {
     height: 129px;
     font: normal normal 800 92px/138px 'Poppins';
     opacity: 1;
@@ -21,7 +21,7 @@ body{
     color: #9BFFAC;
 }
 
-.blg-seemore{
+.blg-seemore {
     text-align: right;
     color: #FFFFFF;
     height: 28px;
@@ -29,41 +29,37 @@ body{
 
 
 /***** Carousel Card Start ****/
-.container .main-carousel {
-
-}
 
 .media-carousel.carousel-cell {
     margin-left: 1em;
     margin-right: 1em;
 }
 
-.new{
+.new {
     width: 300px;
     margin: auto;
     padding: 1em;
     border-radius: 30px !important;
 }
+
 .new img {
-    border-radius: 30px !important;   
+    border-radius: 30px !important;
 }
 
-.btn{
+.btn {
     font-family: 'Poppins';
     font-weight: bold;
 }
 
-.lnk-deco{
+.lnk-deco {
     color: #FFFFFF;
     font-family: 'Poppins';
 }
 
-.lnk-deco:hover{
+.lnk-deco:hover {
     text-decoration: none;
     color: #FFFFFF;
 }
-
-
 
 .btn-outline-dark:hover {
     color: #fff !important;
@@ -71,27 +67,24 @@ body{
 
 #media-carousel {
     min-height: 20rem;
-
     margin-top: 2%;
 }
 
 .media-carousel.carousel-cell {
-    min-height: 700px; /* This fix includes a fix for flickity where adaptive height is not working properly 
+    min-height: 700px;
+    /* This fix includes a fix for flickity where adaptive height is not working properly 
    So we do it ourselves by setting the min-height, ensuring that the height of a cell will be at least 420 px*/
-   border-radius: 30px !important;
+    border-radius: 30px !important;
 }
-
 
 .media-carousel.carousel-cell.card {
     min-width: 330px;
-
 }
 
 .media-carousel.card-img-top {
     border-radius: 30px !important;
     height: 150px;
 }
-
 
 .media-carousel.card-text {
     color: black;
