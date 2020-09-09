@@ -1,0 +1,24 @@
+/*.testheading {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   align-content: center;
+    text-transform: uppercase;
+    
+}
+
+.btnpad { 
+    padding-top: 30px;
+    padding-left: 0px;
+    
+    
+}
+
+.cardbgcolor {
+     background-color: black;
+}
+
+.greentext {
+    color: #21AC39;
+}*/

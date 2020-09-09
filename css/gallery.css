@@ -1,0 +1,38 @@
+.gallery.carousel-cell {
+	margin-right: 1em;
+	width: auto;
+}
+
+.gallery.carousel-cell img {
+	height: 1000px;
+	width: auto;
+	display: block;
+}
+
+.img-caption {
+	color: white;
+
+}
+
+#year-navigation {
+	position: fixed;
+	top: 10%;
+	left: 1em;
+
+	color: green;
+}
+
+.year-nav-item {
+	color: white;
+	margin-top: 10em;
+	opacity: 0.4;
+}
+
+.year-nav-item:hover {
+	opacity: 1;
+}
+
+#year-navigation li {
+	list-style: none;
+}
+

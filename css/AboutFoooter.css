@@ -60,6 +60,9 @@
       .nav-tabs {
         /*border-bottom: none;*/
       }
+      .AboutUsNFooter{
+        padding-bottom: 25px;
+      }
       .sec1 {
         background-color: #000000;
       }
@@ -83,7 +86,7 @@
       }
       .Symbiosis_white {
         padding-top : 40px; 
-        padding-left: 100px;
+        padding-left: 60px;
       }
       #matLogo {
         padding-left: 50px;
@@ -91,7 +94,7 @@
       .part {
         color: white; 
         padding-bottom: 25px;
-        padding-left: 100px;
+        padding-left: 60px;
       }
       #Footr2 {
         padding-left: 50px;
@@ -118,5 +121,11 @@
       #FootrRight {
         color: white; 
         padding-top : 100px; 
-        padding-left: 100px;
+        padding-left: 60px;
+      }
+      .instagram{
+        height: 25px;
+      }
+      .twitter{
+        height: 25px;
       }
