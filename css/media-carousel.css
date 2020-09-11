@@ -97,3 +97,7 @@ body {
     color: black;
     height: 200px;
 }
+
+.media-carousel.card-title {
+    height: 100px;
+}
