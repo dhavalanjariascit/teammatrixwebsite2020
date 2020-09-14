@@ -151,13 +151,22 @@ p.past-event-carousel.card-text {
 }
 
 .meetinfo a {
-    background-color: black;
-    margin-top: 50px;
-    height: 100px;
-    color: white;
-    font-size: 30px;
     text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10em;
+    border: 1px solid #fff;
+    font-size: 25px;
+    padding: 18px 35px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-family: poppins;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.meetinfo a:hover {
+    border-color: #fff;
+    background: #21AC39;
+    transition: 1s;
+    color: #fff;
 }
