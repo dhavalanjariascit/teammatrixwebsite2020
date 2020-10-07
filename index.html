@@ -132,9 +132,9 @@
                                 <li class="active">
                                     <a data-toggle="tab" id="toggleOngoing" onclick="ongoing()" href="#ongoing" style="color:#21AC39 ; text-decoration: none ;font-weight:bold">current news</a>
                                 </li>
-                                <!-- <li>
-              <a data-toggle="tab" id="toggleUpcoming" onclick="upcoming()" href="#upcoming" style="margin-left:97px;color:#AFAFAF ; text-decoration: none">upcoming</a>
-            </li> -->
+                                <li>
+                                    <a data-toggle="tab" id="toggleUpcoming" onclick="upcoming()" href="#upcoming" style="margin-left:97px;color:#AFAFAF ; text-decoration: none">upcoming events</a>
+                                </li>
                             </ul>
                             <div class="tab-content">
                                 <div id="ongoing" class="tab-pane in active">
@@ -162,19 +162,23 @@
                                 <div id="upcoming" class="tab-pane">
                                     <div class="row">
                                         <div class="col-md-1 customNumber">1</div>
-
-
-
-                                        <a href="javascript:void()" id="eventupcome1" onclick="toggleUpcomingCardView1()" class="col-md-8 customTabText">team
-                                            matrix upcoming event 1</a>
+                                        <a href="javascript:void()" id="eventupcome1" onclick="toggleUpcomingCardView1()" class="col-md-8 customTabText">Capture The Flag</a>
                                         <img id='playOn1' class="col-md-2 imagePlayPosition" src="images/play.png">
                                     </div>
                                     <div class="row">
                                         <div class="col-md-1 customNumber">2</div>
-
-                                        <a href="javascript:void()" id="eventupcome2" onclick="toggleUpcomingCardView2()" class="col-md-8 customTabText">team
-                                            matrix upcoming event 2</a>
+                                        <a href="javascript:void()" id="eventupcome2" onclick="toggleUpcomingCardView2()" class="col-md-8 customTabText">Cyber Quest</a>
                                         <img id='playOn2' class="col-md-2 imagePlayPosition" src="images/play.png">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-1 customNumber">3</div>
+                                        <a href="javascript:void()" id="eventupcome3" onclick="toggleUpcomingCardView3()" class="col-md-8 customTabText">Internet Of Crimes</a>
+                                        <img id='playOn3' class="col-md-2 imagePlayPosition" src="images/play.png">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-1 customNumber">4</div>
+                                        <a href="javascript:void()" id="eventupcome4" onclick="toggleUpcomingCardView4()" class="col-md-8 customTabText">Tug of Words</a>
+                                        <img id='playOn4' class="col-md-2 imagePlayPosition" src="images/play.png">
                                     </div>
                                 </div>
                             </div>
@@ -323,58 +327,118 @@
                                 </div>
                             </div>
                             <div id="cardup1" class="card customCard">
-                                <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+                                <img class="card-img-top test" src="images/ctf.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <p class="card-text detailedText">
-                                        <b class="detailedText">Here we present our UPCOMING event 1 header.</b>
+                                        <b class="detailedText">CAPTURE THE FLAG</b>
                                     </p>
-                                    <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures: Organisations running Docker in the cloud need to ensure that the management interface’s API is not
-                                        exposed to the Internet.</p>
+                                    <p class="detailedText">The CTF is a Jeopardy-style capture the flag competition where individuals will compete to solve various challenges based on CTF flavours such as Steganography, Web, Cryptography, Forensics, OSINT, etc</p>
                                     <p>
-                                        <b class="detailedText">October 06th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+                                        <b class="detailedText">October 24th 2020 | 10:00 AM - 5:00 PM</b>
                                     </p>
                                     <div class="row">
-                                        <button type="button" class="btn customButton">
-                                            <b>Join Now</b>
-                                        </button>
-                                        <a href="https://www.google.com/">
-                                            <img src="images/facebook.png" class="socialMediaIcon">
-                                        </a>
-                                        <a href="https://www.google.com/">
-                                            <img src="images/ig.png" class="socialMediaIcon1">
-                                        </a>
-                                        <a href="https://www.google.com/">
-                                            <img src="images/linkedin.png" class="socialMediaIcon1">
-                                        </a>
+                                        <div class="container">
+                                            <a href="https://v2l62cdp.r.ap-south-1.awstrack.me/L0/https:%2F%2Fd2c.pw%2F8RBrBT/1/0109017501bda668-d0b86b11-c492-41b2-89e7-976302027dcb-000000/ORkY8C38iGzCz2fskOZqn3JOz58=1" type="button" class="btn customButton">
+                                                <b>Register Here</b>
+                                            </a>
+                                            <a href="https://www.facebook.com/teammatrixscit" class="upcomingTabs">
+                                                <i class="fab fa-facebook-f fa-2x ml-2"></i>
+                                            </a>
+                                            <a href="https://twitter.com/teammatrixSCIT">
+                                                <!-- <img src="images/ig.png" class="socialMediaIcon1"> -->
+                                                <i class="fab fa-twitter fa-2x ml-2"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/teammatrixscit">
+                                                <i class="fab fa-instagram fa-2x ml-2"></i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div id="cardup2" class="card customCard">
-                                <img class="card-img-top test" src="images/event.png" alt="Card image cap">
+                                <img class="card-img-top test" src="images/quiz.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <p class="card-text detailedText">
-                                        <b class="detailedText">Lorem Ipsum is simply dummy text UPCOMING event 2.</b>
+                                        <b class="detailedText">CYBER QUEST</b>
                                     </p>
-                                    <p class="detailedText">Docker servers are being increasingly targeted by hackers, especially by crypto-mining groups. Preventive Measures: Organisations running Docker in the cloud need to ensure that the management interface’s API is not
-                                        exposed to the Internet.</p>
+                                    <p class="detailedText">This event has 2 rounds; Round 1: Cryptics- participants will be given 15 MCQ related to Cyber Security, then in Round 2: Where's the phish- It has 10 scenario based questions.</p>
                                     <p>
-                                        <b class="detailedText">October 16th 2020 | 5.00 - 6.00 PM | At SCIT</b>
+                                        <b class="detailedText">October 24th 2020 | 10:00 AM - 5:00 PM </b>
                                     </p>
                                     <div class="row">
-                                        <button type="button" class="btn customButton">
-
-                                            <b>Join Now</b>
-                                        </button>
-
-                                        <a href="https://www.google.com/">
-                                            <img src="images/facebook.png" class="socialMediaIcon">
-                                        </a>
-                                        <a href="https://www.google.com/">
-                                            <img src="images/ig.png" class="socialMediaIcon1">
-                                        </a>
-                                        <a href="https://www.google.com/">
-                                            <img src="images/linkedin.png" class="socialMediaIcon1">
-                                        </a>
+                                        <div class="container">
+                                            <a href="https://v2l62cdp.r.ap-south-1.awstrack.me/L0/https:%2F%2Fd2c.pw%2FWcBak8/1/0109017501ca5483-e3713f4e-eefd-488e-b826-9e6b5ff603a9-000000/eYRf39Qa_bZTbx19TpBP81ytkX4=1" type="button" class="btn customButton">
+                                                <b>Register Here</b>
+                                            </a>
+                                            <a href="https://www.facebook.com/teammatrixscit" class="upcomingTabs">
+                                                <i class="fab fa-facebook-f fa-2x ml-2"></i>
+                                            </a>
+                                            <a href="https://twitter.com/teammatrixSCIT">
+                                                <!-- <img src="images/ig.png" class="socialMediaIcon1"> -->
+                                                <i class="fab fa-twitter fa-2x ml-2"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/teammatrixscit">
+                                                <i class="fab fa-instagram fa-2x ml-2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cardup3" class="card customCard">
+                                <img class="card-img-top test" src="images/Internetofcrimes.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text detailedText">
+                                        <b class="detailedText">INTERNET OF CRIMES</b>
+                                    </p>
+                                    <p class="detailedText">This event comprises of three rounds, where the first two rounds are elimination rounds. The team shall solve challenges to access the clues regarding the Crime scene.</p>
+                                    <p>
+                                        <b class="detailedText">October 24th 2020 | 10:00 AM - 5:00 PM </b>
+                                    </p>
+                                    <div class="row">
+                                        <div class="container">
+                                            <a href="https://v2l62cdp.r.ap-south-1.awstrack.me/L0/https:%2F%2Fd2c.pw%2FHeXV5v/1/010901750190710d-0b3c9927-6d6f-48e9-a437-70b64bc15af3-000000/ttijLD3HtiJPjlnC7AK6wQVFQ-4=1" type="button" class="btn customButton">
+                                                <b>Register Here</b>
+                                            </a>
+                                            <a href="https://www.facebook.com/teammatrixscit" class="upcomingTabs">
+                                                <i class="fab fa-facebook-f fa-2x ml-2"></i>
+                                            </a>
+                                            <a href="https://twitter.com/teammatrixSCIT">
+                                                <!-- <img src="images/ig.png" class="socialMediaIcon1"> -->
+                                                <i class="fab fa-twitter fa-2x ml-2"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/teammatrixscit">
+                                                <i class="fab fa-instagram fa-2x ml-2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="cardup4" class="card customCard">
+                                <img class="card-img-top test" src="images/Debate.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text detailedText">
+                                        <b class="detailedText">TUG OF WORDS</b>
+                                    </p>
+                                    <p class="detailedText">This event comprises of three rounds, where the first two rounds are elimination rounds. The first round is Group Discussion round and the second one is Case Study based round. The final round will be a 1v1 Debate.</p>
+                                    <p>
+                                        <b class="detailedText">October 18th 2020 onwards | 10:00 AM </b>
+                                    </p>
+                                    <div class="row">
+                                        <div class="container">
+                                            <a href="https://v2l62cdp.r.ap-south-1.awstrack.me/L0/https:%2F%2Fd2c.pw%2FTGw4xK/1/0109017501e2cd99-b5aa3e41-84fc-404c-b129-c03a20c57c89-000000/E7-hTySjfOGl2jVXBgWSeDWfTJk=1" type="button" class="btn customButton">
+                                                <b>Register Here</b>
+                                            </a>
+                                            <a href="https://www.facebook.com/teammatrixscit" class="upcomingTabs">
+                                                <i class="fab fa-facebook-f fa-2x ml-2"></i>
+                                            </a>
+                                            <a href="https://twitter.com/teammatrixSCIT">
+                                                <!-- <img src="images/ig.png" class="socialMediaIcon1"> -->
+                                                <i class="fab fa-twitter fa-2x ml-2"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/teammatrixscit">
+                                                <i class="fab fa-instagram fa-2x ml-2"></i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
